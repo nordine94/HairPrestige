@@ -1,9 +1,19 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Bandeau from './components/Bandeau/Bandeau';
+import Home from './pages/Home/Home';
+
+import './App.css';
+
 
 function App() {
   return (
     <div className="App">
+      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+        </Routes>
+      </Router>
       <Bandeau/>
       <h1>coucou</h1>
     </div>
