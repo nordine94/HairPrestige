@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Hair Prestige</title>
+</head>
+<body>
+
+
+  <!-- NAVIGATION -->
+    <!-- Navigation en mode liste pour pouvoir manipuler les enfants  -->
+    <nav>
+        <ul class="nav-list"> <!--Element parent de la navbar -->
+            <li class="nav-item"><h1>Hair Prestige</h1></li><!--Element enfant de la navbar -->
+            <li class="nav-item"><a href="#main">Accueil</a></li>
+            <li class="nav-item"><a href="#">Services et produits</a></li>
+            <li class="nav-item"><a href="#">A propos</a></li>
+            <li class="nav-item"><a href="#infos">Contact</a></li>
+        </ul>
+    </nav>
+  
+
+
+<!-- HEADER ACCUEIL -->
+
+    <header> <!--Bandeau avec photo-->
+        <h1>Hair Prestige</h1>
+        <h3>Votre salon de coiffure situé à 
+            Choisy le Roi vous accueille dans un cadre chaleureux et
+            convivial.</h3>
+        <button>Reserver</button>
+    </header>
+
+    
+ <!-- CARTE ACCUEIL     -->
+    
+   <section class="main" id="products">  
+        <div class="content"> <!-- div qui contient nos cartes-->
+<!--On met un coté droit et gauche pour chaque carte qu'on nomme avec 2 div differentes -->
+            <div class="card">
+                <div class="left">
+                    <h1>Mariages et Soirée</h1>
+                    <p>Resplendissez lors de vos évènement et faite vous plaisir
+                        Nous vous proposons des forfaits pour vos
+                        coiffures de mariage et de soirée</p>
+                </div>
+                <div class="right">
+                    <img src="images/bride.jpg" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h1>Lissage</h1>
+                    <p>Qui n’a jamais rêvé de cheveux lisses, faciles à
+                       coiffer et qui ne gonflent pas au contact de l’humidité ?
+                       Nous vous trouvons la solution adaptée à vos cheveux.</p>
+                </div>
+                <div class="right">
+                    <img src="images/lisser.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+   </section>
+
+<!--SERVICES ET PRODUITS-->
+
+ <div class="cartes">
+        <div class="carte">
+            <div class="partImg img1">
+                <div class="filtreBleu">
+                    <div class="btnReveal">Acheter</div>
+                </div>
+            </div>
+
+            <div class="titrePrix">
+                <h2 class="titreCarte">
+                    Coupe Court
+                </h2>
+                <p class="prix">40 €</p>
+            </div>
+
+            <div class="taille">
+                <p class="tailleTxt">Tailles :</p>
+            </div>
+
+            <div class="colors">
+                <h2 class="sousTitresC">Colors</h2>
+                <div class="contRond">
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carte">
+            <div class="partImg img2">
+                <div class="filtreBleu">
+                    <div class="btnReveal">Acheter</div>
+                </div>
+            </div>
+
+            <div class="titrePrix">
+                <h2 class="titreCarte">
+                    Coupe Mi-long
+                </h2>
+                <p class="prix">40 €</p>
+            </div>
+
+            <div class="taille">
+                <p class="tailleTxt">Tailles :</p>
+            </div>
+
+            <div class="colors">
+                <h2 class="sousTitresC">Colors</h2>
+                <div class="contRond">
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carte">
+            <div class="partImg img3">
+                <div class="filtreBleu">
+                    <div class="btnReveal">Acheter</div>
+                </div>
+            </div>
+
+            <div class="titrePrix">
+                <h2 class="titreCarte">
+                    Coupe Long
+                </h2>
+                <p class="prix">40 €</p>
+            </div>
+
+            <div class="taille">
+                <p class="tailleTxt">Tailles :</p>
+            </div>
+
+            <div class="colors">
+                <h2 class="sousTitresC">Colors</h2>
+                <div class="contRond">
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                    <div class="rond"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--A propos-->
+
+    <div class="apropos">
+        <div class="about">
+            <h2>A propos de nous</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sequi!</p>
+        </div>
+   </div> 
+    <!--AVIS-->
+
+        <div class="box-avis">
+            <div class="avis">
+                <p>
+                    "Un accueil des plus chaleureux
+                    Des professionnels qui connaissent leur métier
+                    Et surtout m ont fait découvrir les colorations végétales.....un vrai moment de détente et de soin
+                    Merci Nadia !!"
+                </p>
+                <div class="person">
+                    <div>
+                        <img src="Images/Francisco Diez.png" alt="">
+                    </div>
+                    <div>
+                        <h5>Francisco Diez</h5>
+                        <p>Client</p>
+                    </div>
+                </div>
+            </div>
+            <div class="avis">
+                <p>
+                    "Nadia a accepté de me couper les cheveux la veille du second confinement et ce entre 2 RDV alors que je n'étais pas encore cliente de son salon et je l'en remercie !!"
+                </p>
+                <div class="person">
+                    <div>
+                        <img src="Images/Francisco Diez.png" alt="">
+                    </div>
+                    <div>
+                        <h5>Flora LDJ</h5>
+                        <p>Cliente</p>
+                    </div>
+                </div>
+            </div>
+            <div class="avis">
+                <p>
+                    "La cadre est sympas, l'accueil très agréable, personnelles sont très souriantes, accueillantes..Le service est au top..3 fois je suis allée tjrs ravie ..Je vs conseille HAIR PRESTIGE !!"
+                </p>
+                <div class="person">
+                    <div>
+                        <img src="Images/Francisco Diez.png" alt="">
+                    </div>
+                    <div>
+                        <h5>Lucenda Oaoa</h5>
+                        <p>Cliente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<!--CONTACT-->
+
+    <div class="contact">
+<div class="contactez-nous">
+	<h1>Contactez-nous !!</h1>
+	<p>Un problème, une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+	<form action="/page-traitement-donnees" method="post">
+	  <div>
+		<label for="nom">Votre nom :</label>
+		<input type="text" id="nom" name="nom" placeholder="Dupont" required>
+	  </div>
+	  <div>
+		<label for="nom">Votre prénom :</label>
+		<input type="text" id="prenom" name="prenom" placeholder="Martin" required>
+	  </div>
+	  <div>
+		<label for="email">Votre e-mail :</label>
+		<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+	  </div>
+	  <div>
+		<label for="sujet">Quel est le sujet de votre message ?</label>
+		<select name="sujet" id="sujet" required>
+			<option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+			<option value="rdv">Prise de rendez-vous</option>
+			<option value="produits">Produits proposés</option>
+			<option value="suivi-commande">Suivi de ma commande</option>
+			<option value="autre">Autre...</option>
+		 </select>
+	  </div>
+	  <div>
+		<label for="message">Votre message :</label>
+		<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+	  </div>
+	  <div>
+		<button type="submit">Envoyer mon message</button>
+	  </div>
+	</form>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+
+   <footer>
+        <h1>Informations :</h1>
+
+        <div class="infos">
+            <div class="info">
+                <h2>Rendez-vous en ligne</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam vel eos! Vel, perspiciatis dolores voluptas id sit recusandae vitae?</p>
+            </div>
+            <div class="info">
+                <h2>Produits</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam vel eos! Vel, perspiciatis dolores voluptas id sit recusandae vitae?</p>
+            </div>
+            <div class="info">
+                <h2>Aimé ou remboursé</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam vel eos! Vel, perspiciatis dolores voluptas id sit recusandae vitae?</p>
+            </div>
+        </div>
+
+        <p id="contact">Contact : 06 49 49 49 49 | &copy; 2021, Hair Prestige.</H1></p>  <!--&copy donne le petit symbole du copyright-->
+   </footer>
+
+
+
+
+</body>
+</html>
