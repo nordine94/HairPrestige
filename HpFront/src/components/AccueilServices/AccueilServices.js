@@ -1,3 +1,5 @@
+import './AccueilServices.css';
+
 import brideImage from '../../images/bride.jpg';
 import lisserImage from '../../images/lisser.jpeg';
 import CardImage from '../CardImage/CardImage';
