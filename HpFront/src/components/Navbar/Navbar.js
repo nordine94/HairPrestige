@@ -8,7 +8,8 @@ const Navbar = () => {
   const navLinks = [
     { "text": "Accueil","chemin": "/"},
     { "text": "Conseils", "chemin": "/conseils"},
-    { "text": "Contact", "chemin": "/contact"}
+    { "text": "Contact", "chemin": "/contact"},
+    { "text": "Blog", "chemin": "/blob"}
   ];
 
   const hamburger = useRef();
