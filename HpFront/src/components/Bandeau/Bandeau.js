@@ -12,7 +12,7 @@ const Bandeau = () => {
                     convivial.</h3>
                 <button>Reserver</button>
             </div>
-            <div className="right">              
+                <div className="right">              
             </div>
         </div>
      );
