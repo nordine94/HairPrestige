@@ -1,7 +1,6 @@
 import './CardImage.css';
 
 const CardImage = ({ service }) => {
-    console.log(service);
     const { caption, description, image, image_alt } = service;
     
     return ( 
