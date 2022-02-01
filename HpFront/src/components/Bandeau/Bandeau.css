@@ -77,7 +77,7 @@
 }
 
 .bandeau .right {
-    background-image: url("../../Images/ciseaux.jpg");
+    background-image: url("../../assets/img/ciseaux.jpg");
     background-size: cover;
     width: 60%;
     height: 100%;
