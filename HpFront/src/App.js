@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import RoutesHairPrestige from './components/RoutesHairPrestige/RoutesHairPrestige';
 import Footer from './components/Footer/Footer';
+import Bandeau from './components/Bandeau/Bandeau';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <Bandeau />
         <RoutesHairPrestige />
       </Router>
       {/* <Footer /> */}
