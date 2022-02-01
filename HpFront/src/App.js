@@ -1,26 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Bandeau from './components/Bandeau/Bandeau';
-import Home from './pages/Home/Home';
-import Conseils from './pages/Conseils/Conseils';
-import AccueilServices from './components/AccueilServices/AccueilServices';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 
 
 
 function App() {
   return (
     <div className="App">
-      
       <Router>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/conseils" element={<Conseils/>}/>
-        </Routes>
+        <Navbar />
+        <Content />
       </Router>
-      <Bandeau/>
-       <AccueilServices />
-      <h1>coucou</h1>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,12 +1,12 @@
-import Navbar from '../../components/Navbar/Navbar';
 import './Conseils.css';
 
 const Conseils = () => {
-    return (  
+    return (
         <div className="conseils">
-            <Navbar/>
+            <h1>coucou</h1>
+
         </div>
     );
 }
- 
+
 export default Conseils;
