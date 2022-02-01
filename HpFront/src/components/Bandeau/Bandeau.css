@@ -1,3 +1,85 @@
+/* .bandeau {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    /* background: url("public/images/ciseaux.png"); */
+    /* background-size: cover;  */
+    /* padding: 200px;
+    margin-top: -18px;
+    border-bottom: 5px solid #6f6f6f;
+} */
+
+/* h1 {
+    font-size: 60px;
+}
+
+ h3 {
+    margin-top: -20px;
+    font-size: 30px;
+    text-align: center; */
+    /* border-bottom: 1px solid black; 
+   }
+
+/* button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Pacifico";
+    cursor: pointer;
+} */ 
+
+
 .bandeau {
+    height: 800px;
+    display: flex;
+    overflow: hidden;
+}
+
+.bandeau .left {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background: #000;
+    box-shadow: 90px 0 100px #000;
+}
+
+.bandeau h1 {
+    color: #f1f1f1;
+    font-size: 90px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    white-space: nowrap;
+}
+
+.bandeau h3 {
+    color: #f1f1f1;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 80px;
+    line-height: 1.3;
+}
+
+.bandeau button {
+    font-size: 18px;
     text-align: center;
+    background-color: #000;
+    color: #f1f1f1;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    border: 1px solid #f1f1f1;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.bandeau .right {
+    background-image: url("../../Images/ciseaux.jpg");
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+
 }
