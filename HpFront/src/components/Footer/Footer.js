@@ -1,4 +1,4 @@
-import "./Footer.css";
+// import "./Footer.css";
 
 import facebook from "../../assets/social/facebook.svg";
 import twitter from "../../assets/social/twitter.svg";
