@@ -33,7 +33,8 @@
   display: block;
   text-decoration: none;
   color: #fff;
-  font-family: var(--typo_titre), monospace;
+  font-family: var(--typo_text), monospace;
+  font-style: italic;
 }
 
 .navbar ul li a:after {
