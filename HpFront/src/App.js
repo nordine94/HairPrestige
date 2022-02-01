@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Bandeau from './components/Bandeau/Bandeau';
 import Home from './pages/Home/Home';
+import Conseils from './pages/Conseils/Conseils';
 
 import './App.css';
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/conseils" element={<Conseils/>}/>
         </Routes>
       </Router>
       <Bandeau/>
