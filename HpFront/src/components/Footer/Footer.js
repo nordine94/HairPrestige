@@ -1,11 +1,11 @@
-// import "./Footer.css";
+import "./Footer.css";
 
 import facebook from "../../assets/social/facebook.svg";
 import twitter from "../../assets/social/twitter.svg";
 import instagram from "../../assets/social/instagram.svg";
 import mail from "../../assets/social/mail.svg";
-import logo from "../../assets/img/logo_hairPrestige.png";
-import { NavLink } from "react-router-dom";
+
+import Adresse from "../Adresse/Adresse";
 
 const Footer = () => {
 
@@ -23,30 +23,42 @@ const Footer = () => {
           {"src": facebook, "alt": "Logo Facebook", "adresse": "https://www.facebook.com/Hair-Prestige-1532117990421666/"},
           {"src": twitter, "alt": "Logo Twitter", "adresse": "https://twitter.com/Prestige__Hair"},
           {"src": instagram, "alt": "Logo Instagram", "adresse": "https://www.instagram.com/hair_prestige_/"},
-          {"src": mail, "alt": "Logo Mail", "adresse": "hairprestige@gmail.com"},
+          {"src": mail, "alt": "Logo Mail", "adresse": "mailto:hairprestige@gmail.com"},
       ];
 
 
   return (
     <div className="footer">
-      <div className="social">
-        {
-            imagesSocial.map((image, index) => {
-                return (
-                    <img src={image.src} alt="" />
-                );
-            })
-        }
-        
-      </div>
-      <div className="coordonnees">
-        <NavLink to="/" className="logo">
-          <img src={logo} alt="Logo Hair Prestige" />
-        </NavLink>
-      </div>
-      <div className="horaires">
 
+      <div className="footer_up">
+          <div className="social">
+            <h3>Suivez-nous</h3>
+            <div className="logos_social">
+                {
+                    imagesSocial.map((image, index) => {
+                        return (
+                            <a href={image.adresse} target="_blank" rel="noreferrer"><img key={`social-${index}`} src={image.src} alt={image.alt} /></a>
+                        );
+                    })
+                }
+            </div>
+          
+          </div>
+
+          <div className="coordonnees">
+            <Adresse/>
+          </div>
+
+          <div className="horaires">
+          </div>
       </div>
+
+      <div className="footer_down">
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magnam iusto alias mollitia quia iure odit quasi. Obcaecati cumque est ab consectetur nostrum voluptas facilis quis illum, veniam nemo harum.</p>
+      </div>
+
+
     </div>
   );
 };
