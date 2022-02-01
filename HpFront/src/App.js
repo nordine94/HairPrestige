@@ -1,12 +1,25 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+
 import './App.css';
-import Bandeau from './components/Bandeau/Bandeau';
+import Navbar from './components/Navbar/Navbar';
+import RoutesHairPrestige from './components/RoutesHairPrestige/RoutesHairPrestige';
+import Footer from './components/Footer/Footer';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Bandeau/>
+      <Router>
+        <Navbar />
+        <RoutesHairPrestige />
+      </Router>
+      {/* <Footer /> */}
     </div>
   );
 }
 
 export default App;
+
+
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+:root {
+    --typo_titre: 'Poppins';
+    --typo_text: 'Roboto';
+    --background_color: #f4f3ee;
+    --color_text: #254441;
+    --color_melon: #f8d3a3;
+    --color_green: #43AA8B;
+    --color_grey: #bcb8b1;
+}
+
+body {
+    background-color: var(--background_color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--typo_text);
+}
+
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+

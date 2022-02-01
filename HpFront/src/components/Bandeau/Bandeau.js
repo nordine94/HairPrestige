@@ -18,4 +18,5 @@ const Bandeau = () => {
      );
 }
  
+
 export default Bandeau;

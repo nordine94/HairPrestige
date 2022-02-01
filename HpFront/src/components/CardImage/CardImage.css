@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap'); /*Bibliotheque de police sur google font*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.cardimage {
+    margin: 0;
+    padding: 0;
+    font-family: "Pacifico";
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cardimage .left {
+    flex: 0 0 30%; 
+    padding: 20px; 
+    background-color: black;
+    color: white;
+}
+
+
+.cardimage .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
