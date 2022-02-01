@@ -1,11 +1,15 @@
 import './App.css';
+import AccueilServices from './components/AccueilServices/AccueilServices';
 import Bandeau from './components/Bandeau/Bandeau';
 
+
 function App() {
+  
+
   return (
     <div className="App">
-      <Bandeau/>
-      <h1>coucou</h1>
+      <Bandeau />
+      <AccueilServices />
     </div>
   );
 }
