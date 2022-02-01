@@ -33,7 +33,7 @@ const Footer = () => {
         {
             imagesSocial.map((image, index) => {
                 return (
-                    <img src={i} alt="" />
+                    <img src={} alt="" />
                 );
             })
         }
