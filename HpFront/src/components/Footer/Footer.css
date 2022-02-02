@@ -10,7 +10,7 @@
 
 .footer_up {
     width: 100%;
-    margin: 10px;
+    margin: 22px 10px 10px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -24,7 +24,6 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-
 .footer_up .social h3 {
     text-align: center;
     font-size: 1.7em;
@@ -32,8 +31,6 @@
     color: var(--color_melon);
     text-decoration: underline;
 }
-
-
 
 .footer_up .social img {
     width: 60px;
@@ -50,4 +47,28 @@
     transition: linear 0.5s ;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.footer_down {
+    width: 80%;
+    color: var(--background_color);
+}
+
+.footer_down p a, .footer_down p a:visited{
+    color: var(--background_color);
+    cursor: pointer;
+}
+
+.footer_down hr {
+    margin: 8px;
+    width: 100%;
+    border: var(--color_melon) 1px solid;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.footer_down p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 8px;
 }
