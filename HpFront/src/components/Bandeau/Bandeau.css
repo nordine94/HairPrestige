@@ -1,48 +1,22 @@
-/* .bandeau {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    /* background: url("public/images/ciseaux.png"); */
-    /* background-size: cover;  */
-    /* padding: 200px;
-    margin-top: -18px;
-    border-bottom: 5px solid #6f6f6f;
-} */
-
-/* h1 {
-    font-size: 60px;
-}
-
- h3 {
-    margin-top: -20px;
-    font-size: 30px;
-    text-align: center; */
-    /* border-bottom: 1px solid black; 
-   }
-
-/* button {
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 20px;
-    font-family: "Pacifico";
-    cursor: pointer;
-} */ 
-
-
 .bandeau {
     height: 800px;
+    position: relative;
     display: flex;
+    justify-content: flex-end;
     overflow: hidden;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 50%);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .bandeau .left {
-    position: relative;
-    width: 40%;
+    position: absolute;
+    width: 100%;
     height: 100%;
-    background: #000;
-    box-shadow: 90px 0 100px #000;
+    z-index: 1;
+
+    /* background: #000; */
+    /* box-shadow: 90px 0 100px #000; */
 }
 
 .bandeau h1 {
@@ -81,5 +55,7 @@
     background-size: cover;
     width: 60%;
     height: 100%;
+    align-self: flex-end;
+    z-index: 0;
 
 }
