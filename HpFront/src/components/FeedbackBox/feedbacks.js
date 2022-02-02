@@ -1,3 +1,10 @@
+/*
+Extrait via : https://wextractor.com/
+link hair prestige: https://www.google.com/maps/place/HAIR+PRESTIGE/@48.7608796,2.4116805,15z/data=!4m5!3m4!1s0x0:0xb7a0b72588048510!8m2!3d48.7608719!4d2.4116352
+
+*/
+
+
 export const feedbacks = [
     {
       "url": "https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s105640030378588060018!2s0x0:0xb7a0b72588048510?hl=en-US",

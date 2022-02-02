@@ -10,8 +10,11 @@
 }
 
 .feedbackbox .box {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
     color: var(--color_text);
-    padding: 20px;
+    padding: 10px;
     background-color: var(--color_melon);
     border: 5px solid var(--color_green);
     border-radius: 5px;
