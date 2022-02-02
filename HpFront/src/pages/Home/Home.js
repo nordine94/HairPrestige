@@ -7,7 +7,7 @@ const Home = () => {
     return (
       <div className="home">
         <Bandeau />
-        <AccueilServices />
+        {/* <AccueilServices /> */}
         <FeedbackBox />
       </div>
     );

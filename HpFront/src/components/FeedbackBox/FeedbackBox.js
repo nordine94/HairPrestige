@@ -1,3 +1,5 @@
+// doc carousel : https://react-slick.neostack.com/docs/get-started
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./FeedbackBox.css";

@@ -8,7 +8,6 @@ const RoutesHairPrestige = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/blob" element={<Home />} />
             <Route path="/conseils" element={<Conseils />} />
             <Route path="/cgv" element={<Cgv />} />
             <Route path="/photos" element={<Photos />} />
