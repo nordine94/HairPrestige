@@ -15,6 +15,42 @@ const FeedbackBox = () => {
         window.matchMedia("(min-width: 650px)").matches
     )
 
+    let settings;
+
+    const updateSettings = () => {
+        if (matchBig) {
+            settings = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+            };
+        } else if (matchMedium) {
+            settings = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+            };
+        } else {
+            settings = {
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+            };
+        }
+    }
+
     useEffect(() => {
         window
             .matchMedia("(min-width: 1500px)")
@@ -24,39 +60,9 @@ const FeedbackBox = () => {
             .addEventListener('change', e => setMatchMedium(e.matches));
     }, []);
 
-    let settings;
+    updateSettings();
 
-    if (matchBig) {
-        settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 4000,
-        };
-    } else if (matchMedium) {
-        settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 4000,
-        };
-    } else {
-        settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 4000,
-        };
-    }
+    
 
     return (
         <div className="feedbackbox">
