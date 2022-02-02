@@ -45,11 +45,7 @@ const Gallery = () => {
         <div className="gallery">
           {img.map((item, index) => {
             return (
-              <div
-                className="pics"
-                key={index}
-                onClick={() => getImg(item.imgSrc)}
-              >
+              <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
                 <img src={item.imgSrc} style={{ width: "50%" }} />
               </div>
             );
