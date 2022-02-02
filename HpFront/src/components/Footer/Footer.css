@@ -21,7 +21,7 @@
     border: 2px solid var(--background_color);
     border-radius: 30px;
     padding: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .footer_up .social h3 {
@@ -64,7 +64,7 @@
     width: 100%;
     border: var(--color_melon) 1px solid;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .footer_down p {
