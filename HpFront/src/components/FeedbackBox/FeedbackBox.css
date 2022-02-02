@@ -1,0 +1,28 @@
+.feedbackbox {
+    margin: 0 30px;
+}
+
+
+.feedbackbox .slick-slide {
+    /* margin: 30px; */
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+.feedbackbox .box {
+    color: var(--color_text);
+    padding: 20px;
+    background-color: var(--color_melon);
+    border: 5px solid var(--color_green);
+    border-radius: 5px;
+    min-height: 300px;
+}
+
+.feedbackbox p {
+    font-style: italic;
+}
+
+.feedbackbox h4 {
+    padding-top: 10px;
+    text-align: center;
+}
