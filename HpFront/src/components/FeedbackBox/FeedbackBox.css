@@ -17,13 +17,15 @@
     padding: 10px;
     background-color: var(--color_melon);
     border: 5px solid var(--color_green);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 5px;
-    min-height: 300px;
+    
 }
 
 .feedbackbox p {
     font-style: italic;
-}
+    min-height: 220px;
+    }
 
 .feedbackbox h4 {
     padding-top: 10px;
