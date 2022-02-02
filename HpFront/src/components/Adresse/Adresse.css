@@ -13,6 +13,7 @@
 
 .adresse_salon p {
     padding: 4px;
+    text-align: center;
 }
 
 .adresse_salon p:last-child {
@@ -40,3 +41,16 @@
     color: var(--color_melon);
 }
 
+/* ---------------------- media queries ---------------------- */
+
+@media only screen and (max-width: 425px) {
+    .adresse_salon img {
+        width: 200px;
+        height: auto;
+    }
+
+    .adresse_salon {
+        font-size: 1.3em;
+    }
+
+}

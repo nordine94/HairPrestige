@@ -25,6 +25,7 @@
 .horaires_salon table tr {
     width: 100%;
     display: flex;
+    flex-wrap: nowrap3;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
@@ -36,3 +37,21 @@
     text-decoration: underline;
 }
 
+
+/* ---------------------- media queries ---------------------- */
+
+@media only screen and (max-width: 425px) {
+  
+    .horaires_salon {
+        padding: 15px;
+    }
+
+    .horaires_salon h3 {
+        font-size: 1em;
+    }
+
+    .horaires_salon table {
+        font-size: 0.8em;
+    }
+
+}

@@ -6,11 +6,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 40px;
 }
 
 .footer_up {
     width: 100%;
-    margin: 22px 10px 10px 10px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -30,6 +31,14 @@
     margin-bottom: 5px;
     color: var(--color_melon);
     text-decoration: underline;
+}
+
+.footer_up .social .logos_social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer_up .social img {
@@ -52,6 +61,9 @@
 .footer_down {
     width: 80%;
     color: var(--background_color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer_down p a, .footer_down p a:visited{
@@ -72,3 +84,49 @@
     font-size: 1.1em;
     margin: 8px;
 }
+
+
+/* ---------------------- media queries ---------------------- */
+
+@media only screen and (max-width: 1048px) {
+    .footer_up {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer_up .social {
+        order: 3;
+    }
+
+    .footer_up .coordonnees {
+        order: 1;
+    }
+
+    .footer_up .horaires {
+        order: 2;
+        padding: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .footer {
+        padding: 40px 15px 40px 15px;
+    }
+
+    .footer_up .social {
+        padding: 10px;
+    }
+
+  .footer_up .social h3 {
+    font-size: 1.3em;
+    }
+
+    .footer_up .social img {
+        width: 40px;
+    }
+
+  }
+
+  
