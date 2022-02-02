@@ -11,7 +11,8 @@
 
 .feedbackbox .box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    
     flex-flow: column wrap;
     color: var(--color_text);
     padding: 10px;
@@ -19,15 +20,17 @@
     border: 5px solid var(--color_green);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 5px;
+    min-height: 280px;
     
 }
 
 .feedbackbox p {
     font-style: italic;
-    min-height: 220px;
+    /* min-height: 220px; */
     }
 
 .feedbackbox h4 {
+    /* justify-self: flex-end; */
     padding-top: 10px;
     text-align: center;
 }
