@@ -16,10 +16,10 @@
     flex-flow: column wrap;
     color: var(--color_text);
     padding: 10px;
-    background-color: var(--color_melon);
-    border: 5px solid var(--color_green);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 5px;
+    background-color: var(--color_melon_light);
+    border: 3px solid var(--color_green);
+    box-shadow: var(--color_grey) 0px 1px 4px;
+    border-radius: 8px;
     min-height: 280px;
     
 }
