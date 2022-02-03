@@ -1,6 +1,7 @@
 // npm i react-image-viewer-dv
 
 import { ImageViewer } from "react-image-viewer-dv";
+import "./Gallery.css";
 import Img1 from "../../assets/salon/carou1.png";
 import Img2 from "../../assets/salon/carou2.png";
 import Img3 from "../../assets/salon/carou3.png";
