@@ -1,0 +1,18 @@
+.prestation_row {
+    color: var(--color_text);
+    width: 60%;
+}
+
+.prestation_row .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--color_green) 1px solid;
+    margin: 15px;
+    padding: 8px;
+}
+
+.prestation_row .row img{
+    width: 30px;
+    height: auto;
+}
