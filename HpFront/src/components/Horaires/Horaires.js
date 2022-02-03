@@ -18,7 +18,7 @@ const Horaires = () => {
         <tbody>
           {horaireSemaine.map((horaireJour, index) => {
             return (
-              <tr>
+              <tr key={`horaire-${index}`}>
                 <td> {horaireJour.jour} </td>
                 <td> {horaireJour.heure} </td>
               </tr>

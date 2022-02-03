@@ -12,7 +12,7 @@ const Home = () => {
       <ul className="accueil-cards">
         {
           cards_data.map((card_data) => (
-            <li key={card_data.key}>
+            <li key={`card_home-${card_data.key}`}>
               <PhotoTextLR props={card_data} />
               <hr />
             </li>

@@ -71,8 +71,8 @@ const FeedbackBox = () => {
             <Slider {...settings}>
                 {
                     feedbacks.map((feedback) => (
-                        <div className="slider-item">
-                            <div className="box" key={feedback.reviewer_id}>
+                        <div className="slider-item" key={feedback.reviewer_id}>
+                            <div className="box" >
                                 <p>{feedback.text}</p>
                                 <h4>{feedback.reviewer}</h4>
                             </div>

@@ -4,7 +4,7 @@ const PhotoTextLR = ({ props }) => {
     if (props.imgRight) {
         return (
             <div className="phototextlr">
-                <div class="text">
+                <div className="text">
                     {
                         <div className="paragraphe">{props.content}</div>
                     }
