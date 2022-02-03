@@ -1,18 +1,57 @@
 .prestation_row {
     color: var(--color_text);
     width: 60%;
+    margin: 15px;
 }
 
 .prestation_row .row {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border: var(--color_green) 1px solid;
     margin: 15px;
     padding: 8px;
+    transition: ease-in 0.2s;
+    cursor: pointer;
 }
+
+.prestation_row .row:hover {
+    background-color: var(--color_melon_light);
+    transition: ease-in 0.2s;
+}
+
+.prestation_row .row_content {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
 
 .prestation_row .row img{
     width: 30px;
     height: auto;
+    margin: 0 30px;
 }
+
+
+.prestation_row .row .desc_prix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row.active .drop_content {
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+}
+
+.drop_content {
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+

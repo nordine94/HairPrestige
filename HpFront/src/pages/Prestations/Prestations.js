@@ -8,11 +8,11 @@ import './Prestations.css'
 
 const Prestations = () => {
 
-    
+
 
     return (  
-        <div className="prestation">
-        
+        <div className="prestations">
+
             <PrestationRow section={titresSections[0].forfaits} elementSection={sectionForfaits} />
             <PrestationRow section={titresSections[0].shampooing} elementSection={sectionShampooing} />
             <PrestationRow section={titresSections[0].soin} elementSection={sectionSoin} />
