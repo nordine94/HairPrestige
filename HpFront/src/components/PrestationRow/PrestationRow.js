@@ -4,7 +4,7 @@ import "./PrestationRow.css";
 const PrestationRow = ({ section, elementSection }) => {
 
     const dropContent = useRef();
-    const [ isOpen, setIsOpen ] = useState(true);
+    const [ isOpen, setIsOpen ] = useState(false);
 
     const openPresta = (e) => {
         setIsOpen(!isOpen);
