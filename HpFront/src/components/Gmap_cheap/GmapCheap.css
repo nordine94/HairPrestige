@@ -1,0 +1,13 @@
+.gmapcheap {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: var(--color_green_light);
+}
+
+.gmapcheap img {
+    max-width: 100%;
+    border: 6px solid var(--color_green_light);
+    border-radius: 12px;
+    box-shadow: var(--color_green_light) 0px 4px 16px, var(--color_green_light) 0px 8px 32px;
+}
