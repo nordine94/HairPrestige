@@ -14,7 +14,9 @@ const Home = () => {
           cards_data.map((card_data) => (
             <li key={card_data.key}>
               <PhotoTextLR props={card_data} />
+              <hr />
             </li>
+            
           ))
         }
       </ul>

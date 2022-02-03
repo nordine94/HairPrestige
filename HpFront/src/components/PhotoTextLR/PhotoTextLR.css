@@ -9,7 +9,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     border-radius: 50px;
     color: var(--color_text);
-    box-shadow: var(--color_melon_light) 0px 4px 16px, var(--color_melon_light) 0px 8px 32px;
+    /* box-shadow: var(--color_melon_light) 0px 4px 16px, var(--color_melon_light) 0px 8px 32px; */
 
 }
 
