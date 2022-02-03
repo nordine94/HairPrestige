@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import "./Gallery.css";
-import Img1 from "../../Images/carou1.png";
-import Img2 from "../../Images/carou2.png";
-import Img3 from "../../Images/carou3.png";
-import Img4 from "../../Images/carou4.png";
+import Img1 from "../../assets/salon/carou1.png";
+import Img2 from "../../assets/salon/carou2.png";
+import Img3 from "../../assets/salon/carou3.png";
+import Img4 from "../../assets/salon/carou4.png";
 
 
 

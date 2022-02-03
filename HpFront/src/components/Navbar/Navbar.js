@@ -9,7 +9,6 @@ const Navbar = () => {
     { "text": "Accueil","chemin": "/"},
     { "text": "Conseils", "chemin": "/conseils"},
     { "text": "Contact", "chemin": "/contact"},
-    { "text": "Blog", "chemin": "/blob"},
     { "text": "Photos", "chemin": "/photos"}
   ];
 

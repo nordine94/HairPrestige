@@ -10,10 +10,10 @@ const Bandeau = () => {
                 <h3>Votre salon de coiffure situé à 
                     Choisy le Roi vous accueille dans un cadre chaleureux et
                     convivial.</h3>
-                <button>Reserver</button>
+                {/* <button>Reserver</button> */}
+                {/* <div className="right"></div> */}
             </div>
-                <div className="right">              
-            </div>
+               
         </div>
      );
 }
