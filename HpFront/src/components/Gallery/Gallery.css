@@ -1,4 +1,4 @@
-.gallery {
+/* .gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -6,9 +6,9 @@
     -moz-column-width: 50%;
     column-width: 50%;
     padding: 0 12px;
-}
+}  */
 
-.gallery .pics {
+/* .gallery .pics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
@@ -27,7 +27,6 @@
     }
 }
 
-/*model*/
 
 .model{
     width: 100%;
@@ -63,4 +62,4 @@
     box-sizing: border-box;
     padding: 20px 0 20px;
     margin: 0 auto;
-}
+}  */
