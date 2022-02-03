@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--color_melon_light);
+    /* background-color: var(--color_melon_light); */
     /* border: 6px solid var(--color_green);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     border-radius: 50px;
@@ -42,11 +42,11 @@
         /* height: auto; */
         margin: 20px 0;
         border-radius: 61% 39% 48% 52% / 43% 79% 21% 57% ;
-        box-shadow: rgba(240, 201, 95, 0.4) -5px 5px,
-                    rgba(240, 201, 95, 0.3) -10px 10px, 
-                    rgba(240, 201, 95, 0.2) -15px 15px, 
-                    rgba(240, 201, 95, 0.1) -20px 20px, 
-                    rgba(240, 201, 95, 0.05) -25px 25px;
+        box-shadow: rgba(248, 211, 163, 0.4) -5px 5px,
+                    rgba(248, 211, 163, 0.3) -10px 10px, 
+                    rgba(248, 211, 163, 0.2) -15px 15px, 
+                    rgba(248, 211, 163, 0.1) -20px 20px, 
+                    rgba(248, 211, 163, 0.05) -25px 25px;
     }
     
     .phototextlr .text {
