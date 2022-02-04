@@ -9,7 +9,7 @@ const PrestationRow = ({ section, elementSection }) => {
   const auj = new Date().toLocaleDateString(); //heure + min
   console.log(auj);
 
-  const openPresta = (index) => {
+  const openPresta = (e, index) => {
     
     if (isOpen) {
       dropContent.current.children[index + 1].classList.add("active");
