@@ -25,7 +25,6 @@ const PrestationRow = ({ section, elementSection }) => {
 
   document.onclick = (e) => { 
     
-    console.log(e.target.classList);
     if(e.target.classList.value === "table_presta" || e.target.classList.value === "left") {
       const rows = document.querySelectorAll(".row");
       const btnReserver = document.querySelectorAll(".btnRdv");
@@ -59,7 +58,7 @@ const PrestationRow = ({ section, elementSection }) => {
             <div className="drop_content">
               <input type="text" placeholder="Prénom Nom"/>
               <input type="text" placeholder="Email" />
-              <input type="datetime-local" min="04-02-2022T09:00" max="28-02-2022T19:00" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}T[0-9]{2}:[0-9]{2}" />
+              <input type="datetime-local" min="2022-02-04T09:00" max="2022-02-28T19:00" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}" />
               <input type="submit" value="Prendre rendez-vous" />
             </div>
           </div>
