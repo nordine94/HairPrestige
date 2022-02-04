@@ -1,38 +1,42 @@
+import { useEffect } from "react";
 import { useRef, useState } from "react";
 import "./PrestationRow.css";
 
 const PrestationRow = ({ section, elementSection }) => {
+  const dropContent = useRef();
+  const [isOpen, setIsOpen] = useState(false);
 
-    const dropContent = useRef();
-    const [ isOpen, setIsOpen ] = useState(false);
-
-    const openPresta = (e) => {
-        setIsOpen(!isOpen);
-        console.log(dropContent);
-        if(isOpen) {
-            e.target.parentNode.parentNode.classList.add("active");
-            e.target.parentNode.parentNode.parentNode.classList.add("active");
-        } else {
-            e.target.parentNode.parentNode.classList.remove("active");
-            e.target.parentNode.parentNode.parentNode.classList.remove("active");
-        }
+  const openPresta = (e, index) => {
+    setIsOpen(!isOpen);
+    console.log();
+    if (isOpen) {
+      dropContent.current.children[index + 1].classList.add("active");
+    } else {
+      dropContent.current.children[index + 1].classList.remove("active");
     }
 
-    const closePresta = (e) => {
-        if(!isOpen) {
-            e.target.parentNode.parentNode.classList.remove("active");
-            e.target.parentNode.parentNode.parentNode.classList.remove("active");
-        }
+    return index
+  };
+
+  const closePresta = () => {
+    if (!isOpen) {
+      dropContent.current.children[index + 1].classList.remove("active")
+      
     }
+  };
+
+  useEffect(() => {
+    console.log(document.addEventListener('click', closePresta));
+  })
 
   return (
-    <div className="prestation_row">
+    <div className="prestation_row" ref={dropContent}>
       <h3>{section}</h3>
 
       {elementSection.map((element, index) => {
         return (
-          <div className="row" key={`row-${index}`} ref={dropContent}>
-            <div className="row_content" onClick={openPresta}>
+          <div className="row" key={`row-${index}`}>
+            <div className="row_content" onClick={(e) => openPresta(e, index)}>
               <img src={element.icon} alt={element.iconAlt} />
               <div className="desc_prix">
                 <p>{element.description}</p>
@@ -40,9 +44,9 @@ const PrestationRow = ({ section, elementSection }) => {
               </div>
             </div>
             <div className="drop_content">
-                <input type="text" />
-                <input type="text" name="" id="" />
-                <input type="submit" value="Prendre rendez-vous" />
+              <input type="text" />
+              <input type="text" name="" id="" />
+              <input type="submit" value="Prendre rendez-vous" />
             </div>
           </div>
         );
