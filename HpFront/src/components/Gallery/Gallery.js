@@ -28,8 +28,8 @@ const Gallery = () => {
     <div className="gallery">
       <ImagerDisplay z-index="2000" />
       {
-        imgs.map((img) => (
-          <ImagerImg width="400px" src={img} alt="on verra" />
+        imgs.map((img, index) => (
+          <ImagerImg width="400px" src={img} alt={`Image${index}`} key={`Gallery${index}`}/>
         ))
       }
     </div>
