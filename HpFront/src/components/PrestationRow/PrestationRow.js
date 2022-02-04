@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 import { useRef, useState } from "react";
 import "./PrestationRow.css";
 
@@ -18,16 +18,7 @@ const PrestationRow = ({ section, elementSection }) => {
     return index
   };
 
-  const closePresta = () => {
-    if (!isOpen) {
-      dropContent.current.children[index + 1].classList.remove("active")
-      
-    }
-  };
-
-  useEffect(() => {
-    console.log(document.addEventListener('click', closePresta));
-  })
+  
 
   return (
     <div className="prestation_row" ref={dropContent}>
