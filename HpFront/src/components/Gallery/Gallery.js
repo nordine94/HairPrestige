@@ -16,11 +16,12 @@ import img11 from "../../assets/salon/shape.png";
 import img12 from "../../assets/salon/carou4.png";
 import img13 from "../../assets/salon/carou4.png";
 import img14 from "../../assets/salon/carou4.png";
+import img15 from "../../assets/salon/test.png";
 
 const Gallery = () => {
   const imgs = [
     img1, img2, img3, img4, img5, img6, img7,
-    img8, img9, img10, img11, img12, img13, img14, img11
+    img8, img9, img10, img11, img12, img13, img14, img15
   ];
 
   return (
