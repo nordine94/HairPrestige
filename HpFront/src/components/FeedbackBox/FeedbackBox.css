@@ -1,0 +1,36 @@
+.feedbackbox {
+    margin: 30px;
+}
+
+
+.feedbackbox .slick-slide {
+    /* margin: 30px; */
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+.feedbackbox .box {
+    display: flex;
+    justify-content: space-around;
+    
+    flex-flow: column wrap;
+    color: var(--color_text);
+    padding: 10px;
+    background-color: var(--color_melon_light);
+    border: 3px solid var(--color_green);
+    box-shadow: var(--color_grey) 0px 1px 4px;
+    border-radius: 8px;
+    min-height: 280px;
+    
+}
+
+.feedbackbox p {
+    font-style: italic;
+    /* min-height: 220px; */
+    }
+
+.feedbackbox h4 {
+    /* justify-self: flex-end; */
+    padding-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.home {
+    background-color: #f4f3ee;
+}
+
+.home hr {
+    margin: 8px 15%;
+    width: 70%;
+    border: var(--color_green) 1px solid;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
