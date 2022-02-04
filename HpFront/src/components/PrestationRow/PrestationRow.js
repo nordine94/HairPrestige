@@ -52,8 +52,9 @@ const PrestationRow = ({ section, elementSection }) => {
               <input className="btnRdv" type="button" value="Réserver" onClick={(e) => openPresta(e, index)}/>
             </div>
             <div className="drop_content">
-              <input type="text" />
-              <input type="text" name="" id="" />
+              <input type="text" placeholder="Prénom Nom"/>
+              <input type="text" placeholder="Email" name="" id="" />
+              <input type="datetime-local" name="" id="" />
               <input type="submit" value="Prendre rendez-vous" />
             </div>
           </div>
