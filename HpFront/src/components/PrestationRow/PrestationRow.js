@@ -1,10 +1,13 @@
-// import { useEffect } from "react";
 import { useRef, useState } from "react";
 import "./PrestationRow.css";
 
 const PrestationRow = ({ section, elementSection }) => {
   const dropContent = useRef();
   const [isOpen, setIsOpen] = useState(true);
+
+  // const heure = new Date().toLocaleTimeString(); //heure + min
+  const auj = new Date().toLocaleDateString(); //heure + min
+  console.log(auj);
 
   const openPresta = (e, index) => {
     
@@ -53,8 +56,8 @@ const PrestationRow = ({ section, elementSection }) => {
             </div>
             <div className="drop_content">
               <input type="text" placeholder="Prénom Nom"/>
-              <input type="text" placeholder="Email" name="" id="" />
-              <input type="datetime-local" name="" id="" />
+              <input type="text" placeholder="Email" />
+              <input type="datetime-local" min="04-02-2022T09:00" max="28-02-2022T19:00" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}T[0-9]{2}:[0-9]{2}" />
               <input type="submit" value="Prendre rendez-vous" />
             </div>
           </div>
