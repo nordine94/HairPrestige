@@ -9,7 +9,7 @@ const PrestationRow = ({ section, elementSection }) => {
   const auj = new Date().toLocaleDateString(); //heure + min
   console.log(auj);
 
-  const openPresta = (e, index) => {
+  const openPresta = (index) => {
     
     if (isOpen) {
       dropContent.current.children[index + 1].classList.add("active");
@@ -25,7 +25,7 @@ const PrestationRow = ({ section, elementSection }) => {
 
   document.onclick = (e) => { 
     
-    if(e.target.classList.value === "prestations") {
+    if(e.target.classList.value === "table_presta") {
       const rows = document.querySelectorAll(".row");
       const btnReserver = document.querySelectorAll(".btnRdv");
 
