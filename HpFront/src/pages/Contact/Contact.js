@@ -1,3 +1,4 @@
+import './Contact.css';
 import GmapCheap from "../../components/Gmap_cheap/GmapCheap";
 import gmap_image from "../../assets/img/google_map_cheap.png";
 
