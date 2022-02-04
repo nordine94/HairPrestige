@@ -4,6 +4,10 @@
     margin: 15px;
 }
 
+.prestation_row h3{
+    font-size: 1.5em;
+}
+
 .prestation_row .row {
     display: flex;
     flex-direction: column;
@@ -45,6 +49,31 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.prestation_row .row .btnRdv {
+    font-size: 1.1em;
+    border: solid var(--color_green) 1px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: var(--color_melon_light);
+    outline: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: ease-out 0.2s background-color;
+}
+
+.prestation_row .row .btnRdv.change {
+    color: var(--color_melon);
+    font-size: 1.1em;
+    border: solid var(--color_green) 1px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: var(--color_green);
+    outline: none;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: ease-in 0.2s background-color;
 }
 
 .row.active {
