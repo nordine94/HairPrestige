@@ -25,7 +25,8 @@ const PrestationRow = ({ section, elementSection }) => {
 
   document.onclick = (e) => { 
     
-    if(e.target.classList.value === "table_presta") {
+    console.log(e.target.classList);
+    if(e.target.classList.value === "table_presta" || e.target.classList.value === "left") {
       const rows = document.querySelectorAll(".row");
       const btnReserver = document.querySelectorAll(".btnRdv");
 
