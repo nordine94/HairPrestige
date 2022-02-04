@@ -36,7 +36,14 @@
     font-size: 150%;
 }
 
-@media only screen and (max-width: 1100px) {
+.phototextlr .text .paragraphe-right {
+    width: 85%;
+    line-height: 2rem;
+    margin: 10%;
+    font-size: 150%;
+}
+
+@media only screen and (max-width: 1023px) {
     .phototextlr .photo {
         max-width: 65%;
         /* height: auto; */

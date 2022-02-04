@@ -1,6 +1,6 @@
 // npm i react-image-viewer-dv
 
-import { ImagerDisplay, ImagerImg } from '../imager/index';
+import { ImagerDisplay, ImagerImg } from '../utils/imager/index';
 import "./Gallery.css";
 import img1 from "../../assets/salon/carou1.png";
 import img2 from "../../assets/salon/carou2.png";
