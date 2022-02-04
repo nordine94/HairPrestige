@@ -7,10 +7,9 @@ import "./Navbar.css";
 const Navbar = () => {
   const navLinks = [
     { "text": "Accueil","chemin": "/"},
-    { "text": "Conseils", "chemin": "/conseils"},
-    { "text": "Contact", "chemin": "/contact"},
-    { "text": "Prestations", "chemin": "/prestations"},
-    { "text": "Photos", "chemin": "/photos"}
+    { "text": "Prestations", "chemin": "/prestations"},    
+    { "text": "Photos", "chemin": "/photos"},
+    { "text": "Contact", "chemin": "/contact"}
   ];
 
   const hamburger = useRef();
