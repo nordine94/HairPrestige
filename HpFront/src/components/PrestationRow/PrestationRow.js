@@ -22,6 +22,7 @@ const PrestationRow = ({ section, elementSection }) => {
 
   };
 
+
   document.onclick = (e) => { 
     
     if(e.target.classList.value === "prestations") {
