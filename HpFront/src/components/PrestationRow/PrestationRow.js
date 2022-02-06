@@ -47,14 +47,14 @@ const PrestationRow = ({ section, elementSection }) => {
         return (
           <div className="row" key={`row-${index}`}>
             <div className="row_content" onClick={(e) => openPresta(e, index)}>
-              <img src={element.icon} alt={element.iconAlt} />
               <div className="desc_prix">
+              <img src={element.icon} alt={element.iconAlt} />
                 <p className="row_desc">{element.description}</p>
+              </div>
                 <p className="row_prix">
-                  <span className="a_partir">{`${element.aPartir} `}</span>
+                  <span className="a_partir">{`${element.aPartir}`}</span>
                    {element.prix}
                 </p>
-              </div>
               <input className="btnRdv" type="button" value="Réserver" onClick={(e) => openPresta(e, index)}/>
             </div>
             <div className="drop_content">

@@ -104,7 +104,7 @@ const sectionCoiffage = [
     {
         icon: peigne,
         iconAlt: peigneAlt,
-        description: "boucle au fer ou lissage plaques",
+        description: "Boucle au fer ou lissage plaques",
         aPartir: "",
         prix: "5€"
     },
