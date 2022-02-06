@@ -1,7 +1,7 @@
 /* header */
 
 .navbar {
-  position: relative;
+  position: sticky;
   background-color: var(--color_green);
   top: 0;
   z-index: 4;

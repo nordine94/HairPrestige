@@ -33,18 +33,21 @@ const sectionForfaits = [
         icon: coiffure,
         iconAlt: coiffureAlt,
         description: "Coiffage & Séchage",
+        aPartir: "",
         prix: "10.50€"
     },
     {
         icon: coiffure,
         iconAlt: coiffureAlt,
         description: "Coupe entretien",
+        aPartir: "",
         prix: "15€"
     },
     {
         icon: coiffure,
         iconAlt: coiffureAlt,
         description: "Coupe transformation",
+        aPartir: "",
         prix: "18€"
     }
 ];
@@ -54,18 +57,21 @@ const sectionShampooing = [
         icon: shampooing,
         iconAlt: shampAlt,
         description: "Simple",
+        aPartir: "",
         prix: "7€"
     },
     {
         icon: shampooing,
         iconAlt: shampAlt,
         description: "Traitant ou Bio",
+        aPartir: "",
         prix: "9.50€"
     },
     {
         icon: shampooing,
         iconAlt: shampAlt,
         description: "Renforcateur - Mousse - Crème lissante",
+        aPartir: "",
         prix: "7€"
     }
 ];
@@ -75,18 +81,21 @@ const sectionSoin = [
         icon: shampooing,
         iconAlt: shampAlt,
         description: "Soin",
+        aPartir: "",
         prix: "8€"
     },
     {
         icon: shampooing,
         iconAlt: shampAlt,
         description: "Soin profond kératine",
+        aPartir: "",
         prix: "15€"
     },
     {
         icon: shampooing,
         iconAlt: shampAlt,
         description: "Soin profond végétal",
+        aPartir: "",
         prix: "20€"
     },
 ];
@@ -96,18 +105,21 @@ const sectionCoiffage = [
         icon: peigne,
         iconAlt: peigneAlt,
         description: "boucle au fer ou lissage plaques",
+        aPartir: "",
         prix: "5€"
     },
     {
         icon: peigne,
         iconAlt: peigneAlt,
         description: "Brushing cheveux courts",
+        aPartir: "",
         prix: "15€"
     },
     {
         icon: peigne,
         iconAlt: peigneAlt,
         description: "Brushing cheveux mi-longs/longs",
+        aPartir: "",
         prix: "20€"
     }
 ];
@@ -117,49 +129,57 @@ const sectionColoration = [
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Sans Amoniaque",
-        prix: "à partir de 37€"
+        aPartir: "à partir de",
+        prix: "37€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Racine & Huile protectrice",
-        prix: "à partir de 30.50€"
+        aPartir: "à partir de",
+        prix: "30.50€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Totale & Huile protectrice",
-        prix: "à partir de 36.50€"
+        aPartir: "à partir de",
+        prix: "36.50€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Végétale",
-        prix: "à partir de 70€"
+        aPartir: "à partir de",
+        prix: "70€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Mèches au-dessus",
+        aPartir: "",
         prix: "30€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Mèches & Balayage des racines",
-        prix: "à partir de 42€"
+        aPartir: "à partir de",
+        prix: "42€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Mèches 2 couleurs",
-        prix: "à partir de 53€"
+        aPartir: "à partir de",
+        prix: "53€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Racines + longueurs",
-        prix: "à partir de 42€"
+        aPartir: "à partir de",
+        prix: "42€"
     }
 ];
 
@@ -168,37 +188,43 @@ const sectionTechnique = [
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Décapage",
-        prix: "à partir de 25€"
+        aPartir: "à partir de",
+        prix: "25€"
     },
     {
         icon: secheCheveux,
         iconAlt: secheAlt,
         description: "Défrisage - Permanente",
-        prix: "à partir de 30.50€"
+        aPartir: "à partir de",
+        prix: "30.50€"
     },
     {
         icon: secheCheveux,
         iconAlt: secheAlt,
         description: "Permanente sans amoniaque",
-        prix: "à partir de 38.50€"
+        aPartir: "à partir de",
+        prix: "38.50€"
     },
     {
         icon: pinceau,
         iconAlt: pinceauAlt,
         description: "Tie and Dye",
+        aPartir: "",
         prix: "65€"
     },
     {
         icon: pinceChignon,
         iconAlt: pinceAlt,
         description: "Chignon artistique",
-        prix: "à partir de 70€"
+        aPartir: "à partir de",
+        prix: "70€"
     },
     {
         icon: secheCheveux,
         iconAlt: secheAlt,
         description: "Lissage brésilien",
-        prix: "à partir de 110€"
+        aPartir: "à partir de",
+        prix: "110€"
     }
 ];
 
@@ -207,6 +233,7 @@ const sectionMariage = [
         icon: coiffure,
         iconAlt: coiffureAlt,
         description: "Essaie + chignon le jour du mariage",
+        aPartir: "",
         prix: "189€"
     }
 ];

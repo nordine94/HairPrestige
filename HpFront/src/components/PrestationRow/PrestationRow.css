@@ -47,6 +47,11 @@
     width: 100%;
 }
 
+.prestation_row .row .desc_prix .a_partir {
+    font-size: 0.5em;
+    font-style: italic;
+}
+
 .prestation_row .row .btnRdv {
     font-size: 1.1em;
     border: solid var(--color_green) 1px;

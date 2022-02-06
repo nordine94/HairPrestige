@@ -5,9 +5,8 @@ const PrestationRow = ({ section, elementSection }) => {
   const dropContent = useRef();
   const [isOpen, setIsOpen] = useState(true);
 
-  // const heure = new Date().toLocaleTimeString(); //heure + min
-  const auj = new Date().toLocaleDateString(); //heure + min
-  console.log(auj);
+  let auj = new Date().toJSON(); //date du jour + heure-minutes
+  auj = auj.slice(0,16);         //on enleve les caractères en trop à la fin
 
   const openPresta = (e, index) => {
     
@@ -51,14 +50,17 @@ const PrestationRow = ({ section, elementSection }) => {
               <img src={element.icon} alt={element.iconAlt} />
               <div className="desc_prix">
                 <p className="row_desc">{element.description}</p>
-                <p className="row_prix">{element.prix}</p>
+                <p className="row_prix">
+                  <span className="a_partir">{`${element.aPartir} `}</span>
+                   {element.prix}
+                </p>
               </div>
               <input className="btnRdv" type="button" value="Réserver" onClick={(e) => openPresta(e, index)}/>
             </div>
             <div className="drop_content">
               <input type="text" placeholder="Prénom Nom"/>
               <input type="text" placeholder="Email" />
-              <input type="datetime-local" min="2022-02-04T09:00" max="2022-02-28T19:00" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}" />
+              <input type="datetime-local" min={auj} max="2022-04-30T19:00" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}" />
               <input type="submit" value="Prendre rendez-vous" />
             </div>
           </div>
