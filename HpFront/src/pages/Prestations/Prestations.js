@@ -1,15 +1,5 @@
-import {
-  titresSections,
-  sectionForfaits,
-  sectionShampooing,
-  sectionSoin,
-  sectionCoiffage,
-  sectionColoration,
-  sectionTechnique,
-  sectionMariage,
-} from "../../components/PrestationRow/prestations_HP";
-
 import PrestationRow from "../../components/PrestationRow/PrestationRow";
+import prestations_hp from "../../components/PrestationRow/prestations_HP";
 
 import "./Prestations.css";
 import Bandeau from "../../components/Bandeau/Bandeau";
@@ -22,32 +12,39 @@ const Prestations = () => {
         <h1>Les prestations de Hair Prestige</h1>
 
         <PrestationRow
-          section={titresSections[0].forfaits}
-          elementSection={sectionForfaits}
+          section={prestations_hp.titresSections
+          .forfaits}
+          elementSection={prestations_hp.sectionForfaits}
         />
         <PrestationRow
-          section={titresSections[0].shampooing}
-          elementSection={sectionShampooing}
+          section={prestations_hp.titresSections
+          .shampooing}
+          elementSection={prestations_hp.sectionShampooing}
         />
         <PrestationRow
-          section={titresSections[0].soin}
-          elementSection={sectionSoin}
+          section={prestations_hp.titresSections
+          .soin}
+          elementSection={prestations_hp.sectionSoin}
         />
         <PrestationRow
-          section={titresSections[0].coiffages}
-          elementSection={sectionCoiffage}
+          section={prestations_hp.titresSections
+          .coiffages}
+          elementSection={prestations_hp.sectionCoiffage}
         />
         <PrestationRow
-          section={titresSections[0].colorations}
-          elementSection={sectionColoration}
+          section={prestations_hp.titresSections
+          .colorations}
+          elementSection={prestations_hp.sectionColoration}
         />
         <PrestationRow
-          section={titresSections[0].techniques}
-          elementSection={sectionTechnique}
+          section={prestations_hp.titresSections
+          .techniques}
+          elementSection={prestations_hp.sectionTechnique}
         />
         <PrestationRow
-          section={titresSections[0].mariage}
-          elementSection={sectionMariage}
+          section={prestations_hp.titresSections
+          .mariage}
+          elementSection={prestations_hp.sectionMariage}
         />
       </div>
     </div>
