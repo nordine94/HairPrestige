@@ -100,7 +100,7 @@
   align-items: center;
   justify-content: center;
   margin: 15px 0;
-  gap: 30px;
+  gap: 20px;
   width: 100%;
   max-height: 1000px;
   transition: max-height 0.7s ease-in-out;
@@ -112,14 +112,21 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 15px 0;
-  gap: 30px;
+  gap: 20px;
   width: 100%;
   overflow: hidden;
   max-height: 0px;
   transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
+.prestation_row .row .drop_content .calendrier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .prestation_row .row .drop_content input[type="text"],
+.prestation_row .row .drop_content input[type="email"],
 .prestation_row .row .drop_content input[type="datetime-local"] {
   border: none;
   border-bottom: solid 2px var(--color_green);
@@ -130,15 +137,20 @@
   background: none;
 }
 
-.prestation_row .row.active .drop_content input[type="text"],
-.prestation_row .row.active .drop_content input[type="datetime-local"] {
-  border: none;
-  border-bottom: solid 2px var(--color_green);
+.prestation_row .row .drop_content input[type="email"] {
+  border-bottom: double 2px red;
+}
+
+.prestation_row .row .drop_content input[type="submit"]:disabled,
+.prestation_row .row .drop_content input[type="submit"]:disabled:hover {
+  color: var(--color_melon);
+  font-size: 0.9em;
+  border: solid var(--color_green) 1px;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: var(--color_grey);
   outline: none;
-  inset: none;
-  height: 20px;
-  font-size: 0.8em;
-  color: #75869a;
+  margin: 0 0 10px 0;
 }
 
 .prestation_row .row .drop_content input[type="submit"] {
@@ -149,11 +161,10 @@
   border-radius: 6px;
   background-color: var(--color_green);
   outline: none;
-  margin: 10px 0 10px 15px;
-  cursor: pointer;
+  margin: 0 0 10px 0;
 }
 
-.prestation_row .row.active .drop_content input[type="submit"] {
+.prestation_row .row.active .drop_content input[type="submit"].okay:hover {
   color: var(--color_melon);
   font-size: 0.9em;
   border: solid var(--color_green) 1px;
@@ -161,19 +172,7 @@
   border-radius: 6px;
   background-color: var(--color_green);
   outline: none;
-  margin: 10px 0 10px 15px;
-  cursor: pointer;
-}
-
-.prestation_row .row.active .drop_content input[type="submit"]:hover {
-  color: var(--color_melon);
-  font-size: 0.9em;
-  border: solid var(--color_green) 1px;
-  padding: 5px;
-  border-radius: 6px;
-  background-color: var(--color_green);
-  outline: none;
-  margin: 10px 0 10px 15px;
+  margin: 0 0 10px 0;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
