@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.adresse_salon p:last-child {
+/* .adresse_salon p:last-child {
     font-weight: bold;
     transition: linear 0.5s;
 }
@@ -39,7 +39,7 @@
 
 .adresse_salon p:last-child:hover {
     color: var(--color_melon);
-}
+} */
 
 /* ---------------------- media queries ---------------------- */
 
