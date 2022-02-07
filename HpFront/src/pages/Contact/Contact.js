@@ -12,11 +12,17 @@ const Contact = () => {
         email: '',
     });
 
-    const email = 'sawisem904@porjoton.com';
+    const genericFormData = {
+        "toSend": toSend,
+        "setToSend": setToSend,
+        "email": 'sawisem904@porjoton.com',
+        "subject": 'Mail reçu depuis le site web Hair Prestige !',
+        "redirect": 'http://localhost:3000/photos'
+    }
 
     return ( 
         <div className="contact">
-            <GenericForm toSend={toSend} setToSend={setToSend} email={email}/>
+            <GenericForm props={genericFormData} />
             <GmapCheap image={gmap_image} link="https://goo.gl/maps/zbSxBn2TP3t661XZA" />
         </div>
      );

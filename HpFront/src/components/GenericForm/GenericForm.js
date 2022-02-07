@@ -1,10 +1,10 @@
 // si on décide d'utiliser emailjs
 // https://dev.to/daliboru/how-to-send-emails-from-a-form-in-react-emailjs-27d1
 
-import { useState } from 'react';
 import './GenericForm.css';
 
-const GenericForm = ({ toSend, setToSend, email }) => {
+const GenericForm = ({props}) => {
+    const { toSend, setToSend, email, subject, redirect } = props;
     const items = Object.keys(toSend);
 
     const handleChange = (e) => {
@@ -14,8 +14,8 @@ const GenericForm = ({ toSend, setToSend, email }) => {
     return (
         <form className="generic-form"
             action={`https://formsubmit.co/${email}`} method="POST">
-            <input type="hidden" name="_subject" value="Mail reçu depuis le site web Hair Prestige !" />
-            <input type="hidden" name="_next" value="http://localhost:3000" />
+            <input type="hidden" name="_subject" value={subject} />
+            <input type="hidden" name="_next" value={redirect} />
             <input type="hidden" name="_template" value="table" />
             {
                 items.map((item, index) => (
