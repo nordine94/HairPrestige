@@ -6,7 +6,7 @@
     font-size: 1.7em;
 }
 
-.adresse_salon img {
+.adresse_salon .logo_salon {
     width: 400px;
     height: auto;
 }
@@ -15,6 +15,21 @@
     padding: 4px;
     text-align: center;
 }
+
+.adresse_salon a {
+    color: var(--background_color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.adresse_salon a img {
+    width: 30px;
+    height: auto;
+}
+
 
 /* .adresse_salon p:last-child {
     font-weight: bold;

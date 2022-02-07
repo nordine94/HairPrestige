@@ -2,8 +2,6 @@ import image_kid from '../../assets/img/haircut-kid.jpg';
 import image_chignon from '../../assets/img/pic_chignon.jpg';
 import image_barbe from '../../assets/img/barba.webp';
 import Adresse from '../../components/Adresse/Adresse';
-import Bandeau from '../../components/Bandeau/Bandeau';
-import Footer from '../../components/Footer/Footer';
 import Horaires from '../../components/Horaires/Horaires';
 
 export const home_cards_data = [
