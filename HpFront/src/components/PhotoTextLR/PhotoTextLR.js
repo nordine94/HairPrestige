@@ -17,7 +17,12 @@ const PhotoTextLR = ({ props }) => {
             <div className="phototextlr">
                 <div className="text">
                     {
-                        <div className="paragraphe-right">{props.content}</div>
+                        props.content.map((e, index) => (
+                            <div className="paragraphe-left" key={`carte-content-${index}`}>
+                                <div>{e}</div>
+                            </div>
+                        ))
+
                     }
                 </div>
                 <img className="photo" src={props.image} alt={props.alt} />
@@ -31,7 +36,11 @@ const PhotoTextLR = ({ props }) => {
             <img className="photo" src={props.image} alt={props.alt} />
             <div className="text">
                 {
-                    <div className="paragraphe">{props.content}</div>
+                    props.content.map((e, index) => (
+                        <div className="paragraphe-right" key={`carte-content-${index}`}>
+                            <div>{e}</div>
+                        </div>
+                    ))
                 }
             </div>
         </div>

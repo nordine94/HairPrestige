@@ -1,24 +1,38 @@
 import image_1 from '../../assets/img/bride.jpg';
 import image_2 from '../../assets/img/ciseaux.jpg';
+import Adresse from '../../components/Adresse/Adresse';
+import Bandeau from '../../components/Bandeau/Bandeau';
+import Footer from '../../components/Footer/Footer';
+import Horaires from '../../components/Horaires/Horaires';
 
 export const home_cards_data = [
     {
         "imgRight": false,
         "image": image_1,
         "alt": "image of a bride",
-        "content": "La société C.F.R - Centre de Formation et Recrutement a été créée en  2016 et détient l’autorisation préfectorale pour exercer dans le milieu de la formation professionnelle."
+        "content": [
+            "Situé dans le 15eme arrondissement de Paris, le salon Amélie vous accueille du mardi au samedi dans un cadre convivial et agréable.",
+            "C'est un salon de coiffure aux allures rock'n roll qui envoie bouler les codes. Que l'on soit un homme ou une femme, ici le tarif est le même et on y vient pour s'offrir une coupe dans une ambiance jeune et cosy, une décoration vintage avec une playlist bien pensée.",
+            "Ici, vous y serez aussi à l'aise que chez vos potes. Rien n'est normé, même la déco se prive de symétrie et d'homogénéité, rendant ainsi le lieu plus personnel. Ce côté rock résonne jusque dans les oreilles ! Voilà un coiffeur qui va vous faire rocker !",
+            "Mesdames, Messieurs, changez de coupe ou de couleur selon vos envies chez Amélie... à Paris 15 !"
+        ]
     },
     {
         "imgRight": true,
         "image": image_2,
         "alt": "image of a bride",
-        "content": "La société C.F.R - Centre de Formation et Recrutement a été créée en  2016 et détient l’autorisation préfectorale pour exercer dans le milieu de la formation professionnelle."
+        "content": [
+            <Horaires />
+        ]
     },
     {
         "imgRight": false,
         "image": image_1,
         "alt": "image of a bride",
-        "content": "La société C.F.R - Centre de Formation et Recrutement a été créée en  2016 et détient l’autorisation préfectorale pour exercer dans le milieu de la formation professionnelle."
+        "content": [
+            "Ou sinon un numéro de tel",
+            <Adresse />
+        ]
     }
 ];
 
