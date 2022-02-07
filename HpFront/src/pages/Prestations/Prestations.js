@@ -3,15 +3,15 @@ import prestations_hp from "../../components/PrestationRow/prestations_HP";
 
 import "./Prestations.css";
 import Bandeau from "../../components/Bandeau/Bandeau";
-import bandeauImage from "../../assets/img/bandeau.jpg";
+import bandeauImage from "../../assets/img/photo_un.jpg";
 
 
 const Prestations = () => {
   const contenuBandeau = {
     titre:"Hair Prestige",
     texte : [
-     "Votre salon de coiffure situé à Choisy le Roi",
-     "vous accueille dans un cadre chaleureux et convivial.",
+     "Pour votre mariage prenez rendez-vous",
+     "à Choisy-le-Roi.",
     ]}
 
   return (
