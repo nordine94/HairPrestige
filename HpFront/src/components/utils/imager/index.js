@@ -226,8 +226,8 @@ async function animate(show, coord, originSize) {
 }
 
 window.addEventListener("keydown", (e) => {
-  const display = document.getElementById("imagerDisplayId")
-  if (getComputedStyle(display).display == "none" || display.getAttribute("dis") == "true") { return }
+  const display = document.getElementById("imagerDisplayId");
+  if (display === null || getComputedStyle(display).display == "none" || display.getAttribute("dis") == "true") { return }
 
   const img = display.querySelector(".imagerList .imagerWrapImg[side='center']")
   let ind = parseInt(img.getAttribute("idimg"))
@@ -251,8 +251,8 @@ window.addEventListener("keydown", (e) => {
 })
 
 window.addEventListener("wheel", (e) => {
-  const display = document.getElementById("imagerDisplayId")
-  if (getComputedStyle(display).display == "none" || display.getAttribute("dis") == "true") { return }
+  const display = document.getElementById("imagerDisplayId");
+  if (display === null || getComputedStyle(display).display == "none" || display.getAttribute("dis") == "true") { return }
 
   const img = display.querySelector(".imagerList .imagerWrapImg[side='center']")
   const imgStyle = getComputedStyle(img)
