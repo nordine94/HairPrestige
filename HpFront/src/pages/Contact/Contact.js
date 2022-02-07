@@ -8,7 +8,6 @@ const Contact = () => {
     const [toSend, setToSend] = useState({
         nom: '',
         prenom: '',
-        message: '',
         email: '',
     });
 

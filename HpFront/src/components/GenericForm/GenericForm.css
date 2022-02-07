@@ -1,0 +1,32 @@
+.generic-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.generic-form button {
+    /* width: 30%; */
+    margin: 30px
+}
+
+.generic-form .mapped-input {
+    /* width: 30%; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.generic-form .form-message {
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.generic-form label {
+    padding: 5px;
+}
