@@ -2,22 +2,28 @@ import "./Bandeau.css";
 
 
 
-const Bandeau = ({image, titre, texte}) => {
+const Bandeau = () => {
+
+    const bob = [{
+      "image": "../../assets/img/bandeau.jpg",
+      "titre": "Hair Prestige",
+      "texte":"Votre salon de coiffure situé à Choisy le Roi vous accueille dans un cadre chaleureux et convivial.",
+    }];
+
     return (
-      <div className="bandeau" style={{ backgroundImage: `url(${image})` }}>
+      bob.map((bob, index) => (
+       <div className="bandeau" style={{ backgroundImage: `url(${bob.image})` }} key={`link-${index}`}>
         <div className="left">
-          <h1 >Hair Prestige {titre}</h1>
-          <h3>
-            Votre salon de coiffure situé à Choisy le Roi <br /> vous accueille
-            dans un cadre chaleureux <br />
-            et convivial.{texte}
-          </h3>
-          <button>Reserver</button>
+          <h1 >{bob.titre}</h1>
+          <h3>{bob.texte}</h3>
+          {/* <button>Reserver</button> */}
           {/* <div className="right"></div> */}
-        </div>
+       ) </div>
       </div>
-    );
-}
+      ))
+    
+    )
+  }
  
 
 export default Bandeau;
