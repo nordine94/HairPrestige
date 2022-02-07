@@ -12,10 +12,6 @@
     var(--color_green_light) 0px 8px 32px;
 }
 
-.generic-form button {
-  /* width: 30%; */
-}
-
 .generic-form .mapped-input {
   /* width: 30%; */
   margin: 10px;
