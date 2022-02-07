@@ -23,6 +23,7 @@ const GenericForm = ({ props }) => {
             <input type="hidden" name="_subject" value={subject} />
             <input type="hidden" name="_next" value={redirect} />
             <input type="hidden" name="_template" value="table" />
+            {/* <input type="hidden" name="_captcha" value="false"/> */}
             {
                 items.map((item, index) => (
                     <div className="mapped-input" key={`formKey-${index}`}>
@@ -52,7 +53,7 @@ const GenericForm = ({ props }) => {
                     required
                 />
             </div>
-            <button type='submit'>Envoyer !</button >
+            <button type='submit' onClick={() => (console.log('clické!'))}>Envoyer !</button >
         </form>
     );
 }
