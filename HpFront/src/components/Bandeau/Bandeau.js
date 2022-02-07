@@ -9,16 +9,20 @@ const Bandeau = ({image, titre, texte}) => {
     <div className="bandeau" style={{ backgroundImage: `url(${image})` }}>
       <div className="left">
         <h1>{titre}</h1>
-        <h3>
+
+        
           {texte.map((texte, index) => {
-            console.log(texte);
-            return (
-              <>{texte} <br/></>
-            )
-            })}
-        </h3>
-        <button>Reserver</button>
-        {/* <div className="right"></div> */}
+            
+              return (
+              <h3 key={`${index}`}>
+                <>
+                  {texte} <br />
+                </>
+              </h3>
+              );
+            
+          })}
+              
       </div>
     </div>
   );
