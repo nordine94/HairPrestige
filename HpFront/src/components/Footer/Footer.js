@@ -38,7 +38,7 @@ const Footer = () => {
             
             {imagesSocial.map((image, index) => {
               return (
-                <div className="img_text">
+                <div className="img_text" key={`contact-${index}`}>
                   <a href={image.adresse} target="_blank" rel="noreferrer" key={`social-${index}`}>
                     <img
                       src={image.src}
