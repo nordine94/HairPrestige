@@ -1,5 +1,5 @@
 import Bandeau from '../../components/Bandeau/Bandeau';
-import bandeauImage from "../../assets/img/bandeau.jpg";
+import bandeauImage from "../../assets/img/photo_un.jpg";
 import FeedbackBox from '../../components/FeedbackBox/FeedbackBox';
 import './Home.css';
 import PhotoTextLR from '../../components/PhotoTextLR/PhotoTextLR';

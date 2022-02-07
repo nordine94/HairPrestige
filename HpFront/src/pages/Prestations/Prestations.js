@@ -3,7 +3,7 @@ import prestations_hp from "../../components/PrestationRow/prestations_HP";
 
 import "./Prestations.css";
 import Bandeau from "../../components/Bandeau/Bandeau";
-import bandeauImage from "../../assets/img/photo_un.jpg";
+import bandeauImage from "../../assets/img/washmahair.jpg";
 
 
 const Prestations = () => {
