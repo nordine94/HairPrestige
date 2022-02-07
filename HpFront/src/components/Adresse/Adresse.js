@@ -19,7 +19,7 @@ const Adresse = () => {
             </NavLink>
             <p> {coordonnees.adresse} </p>
             <p> {`${coordonnees.cp} ${coordonnees.ville}`} </p>
-            <p> {coordonnees.tel} </p>
+            {/* <p> {coordonnees.tel} </p> */}
         </div>
      );
 }
