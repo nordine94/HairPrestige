@@ -1,5 +1,6 @@
-import image_1 from '../../assets/img/haircut-kid.jpg';
-import image_2 from '../../assets/img/ciseaux.jpg';
+import image_kid from '../../assets/img/haircut-kid.jpg';
+import image_chignon from '../../assets/img/pic_chignon.jpg';
+import image_barbe from '../../assets/img/barba.webp';
 import Adresse from '../../components/Adresse/Adresse';
 import Bandeau from '../../components/Bandeau/Bandeau';
 import Footer from '../../components/Footer/Footer';
@@ -8,8 +9,8 @@ import Horaires from '../../components/Horaires/Horaires';
 export const home_cards_data = [
     {
         "imgRight": false,
-        "image": image_1,
-        "alt": "image of a bride",
+        "image": image_kid,
+        "alt": "image of a kid getting haircut",
         "content": [
             "Situé à Choisy le Roi, le salon Hair Prestige vous accueille du mardi au samedi dans un cadre convivial et agréable.",
             "C'est un salon de coiffure aux allures rock'n roll qui envoie bouler les codes. Que l'on soit un homme ou une femme, ici le tarif est le même et on y vient pour s'offrir une coupe dans une ambiance jeune et cosy, une décoration vintage avec une playlist bien pensée.",
@@ -19,16 +20,16 @@ export const home_cards_data = [
     },
     {
         "imgRight": true,
-        "image": image_2,
-        "alt": "image of a bride",
+        "image": image_chignon,
+        "alt": "image femme chignon",
         "content": [
             <Horaires />
         ]
     },
     {
         "imgRight": false,
-        "image": image_1,
-        "alt": "image of a bride",
+        "image": image_barbe,
+        "alt": "image homme barbe",
         "content": [
             "Ou sinon un numéro de tel",
             <Adresse />
