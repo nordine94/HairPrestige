@@ -19,8 +19,8 @@ const Home = () => {
       <Bandeau image={bandeauImage} titre={contenuBandeau.titre} texte={contenuBandeau.texte}/>
       <ul className="accueil-cards">
         {
-          cards_data.map((card_data) => (
-            <li key={`card_home-${card_data.key}`}>
+          cards_data.map((card_data, index) => (
+            <li key={`card_home-${index}`}>
               <PhotoTextLR props={card_data} />
               <hr />
             </li>
