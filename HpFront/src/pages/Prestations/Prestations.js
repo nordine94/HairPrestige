@@ -3,11 +3,20 @@ import prestations_hp from "../../components/PrestationRow/prestations_HP";
 
 import "./Prestations.css";
 import Bandeau from "../../components/Bandeau/Bandeau";
+import bandeauImage from "../../assets/img/bandeau.jpg";
+
 
 const Prestations = () => {
+  const contenuBandeau = {
+    titre:"Hair Prestige",
+    texte : [
+     "Votre salon de coiffure situé à Choisy le Roi",
+     "vous accueille dans un cadre chaleureux et convivial.",
+    ]}
+
   return (
     <div className="prestations">
-      <Bandeau></Bandeau>
+      <Bandeau image={bandeauImage} titre={contenuBandeau.titre} texte={contenuBandeau.texte}/>
       <div className="table_presta">
         <h1>Les prestations de Hair Prestige</h1>
 
