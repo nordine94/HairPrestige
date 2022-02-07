@@ -1,3 +1,12 @@
-/* .contact {
-    background: var(--color_green_light);
-} */
+.contact h1 {
+    text-align: center;
+    color: var(--color_text);
+}
+
+.contact hr {
+    margin: 8px 15%;
+    width: 70%;
+    border: var(--color_green) 3px double;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
