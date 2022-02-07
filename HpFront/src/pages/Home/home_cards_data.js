@@ -1,4 +1,4 @@
-import image_1 from '../../assets/img/bride.jpg';
+import image_1 from '../../assets/img/haircut-kid.jpg';
 import image_2 from '../../assets/img/ciseaux.jpg';
 import Adresse from '../../components/Adresse/Adresse';
 import Bandeau from '../../components/Bandeau/Bandeau';
