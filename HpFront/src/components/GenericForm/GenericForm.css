@@ -50,3 +50,17 @@ textarea {
     var(--color_green_light) 0px 8px 32px;
   border-radius: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+    .generic-form {
+        margin: 20px 5%;
+    }
+    .generic-form textarea {
+        max-width: 70%;
+        font-size: 100%;
+    }
+
+    .generic-form input {
+        font-size: 100%;
+    }
+}
