@@ -57,7 +57,7 @@ textarea {
     .generic-form {
         margin: 20px 5%;
     }
-    .generic-form textarea {
+    .generic-form textarea, input {
         max-width: 70%;
         font-size: 100%;
     }
