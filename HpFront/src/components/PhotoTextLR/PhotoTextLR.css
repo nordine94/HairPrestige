@@ -1,81 +1,70 @@
 .phototextlr {
-    margin: 50px 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    /* background-color: var(--color_melon_light); */
-    /* border: 6px solid var(--color_green);
+  margin: 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--color_melon_light); */
+  /* border: 6px solid var(--color_green);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-    border-radius: 50px;
-    color: var(--color_text);
-    /* box-shadow: var(--color_melon_light) 0px 4px 16px, var(--color_melon_light) 0px 8px 32px; */
-
+  border-radius: 50px;
+  color: var(--color_text);
+  /* box-shadow: var(--color_melon_light) 0px 4px 16px, var(--color_melon_light) 0px 8px 32px; */
 }
 
 .phototextlr .photo {
-    max-width: 35%;
-    /* max-height: 250px; */
-    margin: 0 50px;
-    border-radius: 20px;
-    /* border: 5px solid var(--color_melon_light); */
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    /* border-radius: 61% 39% 48% 52% / 43% 79% 21% 57% ;
-    box-shadow: rgba(240, 201, 95, 0.4) -5px 5px,
-                rgba(240, 201, 95, 0.3) -10px 10px, 
-                rgba(240, 201, 95, 0.2) -15px 15px, 
-                rgba(240, 201, 95, 0.1) -20px 20px, 
-                rgba(240, 201, 95, 0.05) -25px 25px; */
+  max-width: 35%;
+  margin: 0 50px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .phototextlr .text {
-    width: 50%;
-    /* text-align: justify; */
-    padding: 8px;
+  width: 50%;
+  /* text-align: justify; */
+  padding: 8px;
 }
 
 .phototextlr .text .paragraphe-left {
-    width: 85%;
-    line-height: 2rem;
-    margin: 2% 2% 2% 10%;
-    font-size: 150%;
-    text-align: right;
+  width: 85%;
+  line-height: 2rem;
+  margin: 2% 2% 2% 10%;
+  font-size: 150%;
+  text-align: right;
 }
 
 .phototextlr .text .paragraphe-right {
-    width: 85%;
-    line-height: 2rem;
-    margin: 2%;
-    font-size: 150%;
+  width: 85%;
+  line-height: 2rem;
+  margin: 2%;
+  font-size: 150%;
 }
 
-.phototextlr .text .paragraphe-right h2, .paragraphe-left h2 {
-    line-height: 42px;
+.phototextlr .text .paragraphe-right h2,
+.paragraphe-left h2 {
+  line-height: 42px;
 }
 
 @media only screen and (max-width: 768px) {
-    .phototextlr .photo {
-        max-width: 65%;
-        /* height: auto; */
-        margin: 20px 0;
-        border-radius: 61% 39% 48% 52% / 43% 79% 21% 57% ;
-        box-shadow: rgba(248, 211, 163, 0.4) -5px 5px,
-                    rgba(248, 211, 163, 0.3) -10px 10px, 
-                    rgba(248, 211, 163, 0.2) -15px 15px, 
-                    rgba(248, 211, 163, 0.1) -20px 20px, 
-                    rgba(248, 211, 163, 0.05) -25px 25px;
-    }
-    
-    .phototextlr .text {
-        width: 80%;
-        padding: 20px 0;
-    }
-    
-    .phototextlr .text .paragraphe {
-        width: 100%;
-        line-height: 1rem;
-        margin: 5% 1%;
-        font-size: 100%;
-    }
-    
+  .phototextlr .photo {
+    max-width: 85%;
+    margin: 0 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .phototextlr .text {
+    width: 80%;
+    padding: 20px 0;
+  }
+
+  .phototextlr .text .paragraphe {
+    width: 100%;
+    line-height: 1rem;
+    margin: 5% 1%;
+    font-size: 100%;
+  }
 }
