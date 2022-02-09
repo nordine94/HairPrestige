@@ -30,7 +30,7 @@
 
 .phototextlr .text {
     width: 50%;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 8px;
 }
 
@@ -39,6 +39,7 @@
     line-height: 2rem;
     margin: 2% 2% 2% 10%;
     font-size: 150%;
+    text-align: right;
 }
 
 .phototextlr .text .paragraphe-right {
@@ -48,7 +49,7 @@
     font-size: 150%;
 }
 
-.phototextlr .text .paragraphe-right h2 {
+.phototextlr .text .paragraphe-right h2, .paragraphe-left h2 {
     line-height: 42px;
 }
 

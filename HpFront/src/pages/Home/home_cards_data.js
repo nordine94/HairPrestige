@@ -1,11 +1,11 @@
-import image_kid from '../../assets/img/washmahair.jpg';
+import image_wash from '../../assets/img/washmahair.jpg';
 import image_bride from '../../assets/img/bride.jpg';
-import image_barbe from '../../assets/img/friser_salon.webp';
+import image_nadia from '../../assets/salon/nadia_haircut_mask.png';
 
 export const home_cards_data = [
     {
         "imgRight": false,
-        "image": image_kid,
+        "image": image_wash,
         "alt": "image of a kid getting haircut",
         "content": [
             <h2>Vous recherchez un salon proposant la coloration végétale et des Shampoings Bio en Ile de France ?</h2>,
@@ -23,11 +23,12 @@ export const home_cards_data = [
     },
     {
         "imgRight": false,
-        "image": image_barbe,
+        "image": image_nadia,
         "alt": "image homme barbe",
         "content": [
-            <h2>Lissage</h2>,
-            "Qui n’a jamais rêvé de cheveux lisses, faciles à coiffer et qui ne gonflent pas au contact de l’humidité ? Nous vous trouvons la solution adaptée à vos cheveux."
+            <h2>Faisons les présentations !</h2>,
+            <div><b>Nadia</b>, responsable du salon <b>Hair Prestige</b> est une grande passionnée du métier. C’est une experte de la mise en forme du cheveu. Elle aime également discuter autant coiffure que de tout autre domaine !</div>,
+            "Douée aussi bien pour la coiffure que pour le maquillage, elle vous accompagne lors de vos mariages et soirées pour vous rendre encore plus belle."
         ]
     }
 ];
