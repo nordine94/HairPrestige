@@ -56,17 +56,17 @@
 }
 
 .prestation_row .row .row_prix {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: fit-content;
-    margin-left: 8px;
-    cursor: default;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: fit-content;
+  margin-left: 8px;
+  cursor: default;
+}
 
 .prestation_row .row .row_desc {
-    cursor: default;
-  }
+  cursor: default;
+}
 
 /* ---------------------- media queries ---------------------- */
 
@@ -78,8 +78,6 @@
 }
 
 @media only screen and (max-width: 830px) {
-
-
   .prestation_row h3 {
     font-size: 1em;
   }
@@ -96,22 +94,21 @@
 }
 
 @media only screen and (max-width: 455px) {
-    .prestation_row .row{
-      flex-wrap: wrap;
-      margin: 15px 8px;
-    }
+  .prestation_row .row {
+    flex-wrap: wrap;
+    margin: 15px 8px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .prestation_row .row_content {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+  .prestation_row .row_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .prestation_row .row_content .row_prix {
-        margin: 7px;
-    }
+  .prestation_row .row_content .row_prix {
+    margin: 7px;
+  }
 }
-

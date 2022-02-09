@@ -1,15 +1,10 @@
-import { useRef } from "react";
+
 import "./PrestationRow.css";
 
 const PrestationRow = ({ section, elementSection }) => {
-  const dropContent = useRef();
-
-  let auj = new Date().toJSON(); //date du jour + heure-minutes
-  auj = auj.slice(0, 16); //on enleve les caractères en trop à la fin
-
-
+  
   return (
-    <div className="prestation_row" ref={dropContent}>
+    <div className="prestation_row">
       <h3>{section}</h3>
 
       {elementSection.map((element, index) => {
