@@ -14,13 +14,13 @@ const Footer = () => {
     {
       src: message,
       alt: "Logo SMS téléphone",
-      adresse: null,
+      adresse: "tel:+33-6-66-02-94-02",
       text: "06.66.02.94.02"
     },
     {
       src: phone,
       alt: "Logo téléphone",
-      adresse: null,
+      adresse: "tel:+33-1-48-84-07-33",
       text: "01.48.84.07.33"
     },
     
@@ -38,15 +38,13 @@ const Footer = () => {
             
             {imagesSocial.map((image, index) => {
               return (
-                <div className="img_text" key={`contact-${index}`}>
-                  <a href={image.adresse} target="_blank" rel="noreferrer" key={`social-${index}`}>
+                  <a className="img_text" href={image.adresse} rel="noreferrer" key={`contact-${index}`}>
                     <img
                       src={image.src}
                       alt={image.alt}
                     />
+                    <p>{image.text}</p>
                   </a>
-                  <p>{image.text}</p>
-                </div>
               );
             })}
           </div>

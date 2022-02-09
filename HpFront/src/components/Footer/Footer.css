@@ -68,6 +68,7 @@
 }
 
 .footer_up .social .logos_social .img_text p{
+    color: var(--background_color);
     font-size: 1.2em;
     font-weight: bold;
 }

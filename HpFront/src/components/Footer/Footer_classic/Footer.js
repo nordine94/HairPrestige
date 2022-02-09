@@ -5,8 +5,8 @@ import twitter from "../../assets/social/twitter.svg";
 import instagram from "../../assets/social/instagram.svg";
 import mail from "../../assets/social/mail.svg";
 
-import Adresse from "../Adresse/Adresse";
-import Horaires from "../Horaires/Horaires";
+import Adresse from "../../Adresse/Adresse";
+import Horaires from "../../Horaires/Horaires";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
