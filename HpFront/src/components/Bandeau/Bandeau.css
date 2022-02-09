@@ -25,7 +25,7 @@
 .bandeau h3 {
     color: var(--color_green);
     font-family: var( --typo_texte);
-    font-size: 2em;
+    font-size: 30px;
     text-align: justify;
     margin: 0px 30px;
     line-height: 1.5;
