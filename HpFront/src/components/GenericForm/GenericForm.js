@@ -27,7 +27,7 @@ const GenericForm = ({ props }) => {
             {
                 items.map((item, index) => (
                     <div className="mapped-input" key={`formKey-${index}`}>
-                        <label for={item} className='input-label'>{`Votre ${item}:`}</label>
+                        <label htmlFor={item} className='input-label'>{`Votre ${item}:`}</label>
                         <input
                             type='text'
                             name={item}
@@ -41,7 +41,7 @@ const GenericForm = ({ props }) => {
                 ))
             }
             <div className="form-message">
-                <label for='message'>Votre message: </label>
+                <label htmlFor='message'>Votre message: </label>
                 <textarea
                     name='message'
                     id='message'
