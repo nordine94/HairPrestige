@@ -17,9 +17,9 @@ const PhotoTextLR = ({ props }) => {
             <div className="phototextlr">
                 <div className="text">
                     {
-                        props.content.map((e, index) => (
+                        props.content.map((element, index) => (
                             <div className="paragraphe-left" key={`carte-content-${index}`}>
-                                <div>{e}</div>
+                                <div>{element}</div>
                             </div>
                         ))
 
