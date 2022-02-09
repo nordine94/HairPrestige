@@ -1,27 +1,37 @@
-import image_1 from '../../assets/img/bride.jpg';
-import image_2 from '../../assets/img/ciseaux.jpg';
+import image_kid from '../../assets/img/haircut-kid.jpg';
+import image_chignon from '../../assets/img/pic_chignon.jpg';
+import image_barbe from '../../assets/img/barba.webp';
+import Adresse from '../../components/Adresse/Adresse';
+import Horaires from '../../components/Horaires/Horaires';
 
 export const home_cards_data = [
     {
-        "key": 1111111,
         "imgRight": false,
-        "image": image_1,
-        "alt": "image of a bride",
-        "content": "La société C.F.R - Centre de Formation et Recrutement a été créée en  2016 et détient l’autorisation préfectorale pour exercer dans le milieu de la formation professionnelle."
+        "image": image_kid,
+        "alt": "image of a kid getting haircut",
+        "content": [
+            "Situé à Choisy le Roi, le salon Hair Prestige vous accueille du mardi au samedi dans un cadre convivial et agréable.",
+            "C'est un salon de coiffure aux allures rock'n roll qui envoie bouler les codes. Que l'on soit un homme ou une femme, ici le tarif est le même et on y vient pour s'offrir une coupe dans une ambiance jeune et cosy, une décoration vintage avec une playlist bien pensée.",
+            "Ici, vous y serez aussi à l'aise que chez vos potes. Rien n'est normé, même la déco se prive de symétrie et d'homogénéité, rendant ainsi le lieu plus personnel. Ce côté rock résonne jusque dans les oreilles ! Voilà un coiffeur qui va vous faire rocker !",
+            "Mesdames, Messieurs, changez de coupe ou de couleur selon vos envies chez Hair Prestige... à Choisy le Roi !"
+        ]
     },
     {
-        "key": 222222,
         "imgRight": true,
-        "image": image_2,
-        "alt": "image of a bride",
-        "content": "La société C.F.R - Centre de Formation et Recrutement a été créée en  2016 et détient l’autorisation préfectorale pour exercer dans le milieu de la formation professionnelle."
+        "image": image_chignon,
+        "alt": "image femme chignon",
+        "content": [
+            <Horaires />
+        ]
     },
     {
-        "key": 3333,
         "imgRight": false,
-        "image": image_1,
-        "alt": "image of a bride",
-        "content": "La société C.F.R - Centre de Formation et Recrutement a été créée en  2016 et détient l’autorisation préfectorale pour exercer dans le milieu de la formation professionnelle."
+        "image": image_barbe,
+        "alt": "image homme barbe",
+        "content": [
+            "Ou sinon un numéro de tel",
+            <Adresse />
+        ]
     }
 ];
 

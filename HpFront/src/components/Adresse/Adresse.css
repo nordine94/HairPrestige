@@ -6,7 +6,7 @@
     font-size: 1.7em;
 }
 
-.adresse_salon img {
+.adresse_salon .logo_salon {
     width: 400px;
     height: auto;
 }
@@ -16,7 +16,22 @@
     text-align: center;
 }
 
-.adresse_salon p:last-child {
+.adresse_salon a {
+    color: var(--background_color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.adresse_salon a img {
+    width: 30px;
+    height: auto;
+}
+
+
+/* .adresse_salon p:last-child {
     font-weight: bold;
     transition: linear 0.5s;
 }
@@ -39,12 +54,12 @@
 
 .adresse_salon p:last-child:hover {
     color: var(--color_melon);
-}
+} */
 
 /* ---------------------- media queries ---------------------- */
 
 @media only screen and (max-width: 425px) {
-    .adresse_salon img {
+    .adresse_salon .logo_salon {
         width: 200px;
         height: auto;
     }

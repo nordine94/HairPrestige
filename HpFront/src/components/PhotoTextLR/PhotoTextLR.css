@@ -29,17 +29,17 @@
     width: 50%;
 }
 
-.phototextlr .text .paragraphe {
+.phototextlr .text .paragraphe-left {
     width: 85%;
     line-height: 2rem;
-    margin: 2%;
+    margin: 2% 2% 2% 10%;
     font-size: 150%;
 }
 
 .phototextlr .text .paragraphe-right {
     width: 85%;
     line-height: 2rem;
-    margin: 10%;
+    margin: 2%;
     font-size: 150%;
 }
 
