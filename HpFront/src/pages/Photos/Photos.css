@@ -1,4 +1,17 @@
 .photos {
-    text-align: center;
-    background-color: #f4f3ee;
+  text-align: center;
+  background-color: #f4f3ee;
+}
+
+.photos h1 {
+  text-align: center;
+  color: var(--color_text);
+}
+
+.photos hr {
+  margin: 8px 15%;
+  width: 70%;
+  border: var(--color_green) 3px double;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
