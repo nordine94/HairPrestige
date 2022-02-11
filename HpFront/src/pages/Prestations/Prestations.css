@@ -7,19 +7,20 @@
     color: var(--color_text);
 }
 
-.table_presta h1 {
+.table_presta h2 {
+    font-size: 2em;
     margin: 6px;
     padding: 3px;
 }
 
 @media only screen and (max-width: 830px) {
-    .table_presta h1 {
+    .table_presta h2 {
         font-size: 1.5em;
     }  
 }
 
 @media only screen and (max-width: 320px) {
-    .table_presta h1 {
+    .table_presta h2 {
         font-size: 1.1em;
     }  
 

@@ -18,7 +18,7 @@ const Prestations = () => {
     <div className="prestations">
       <Bandeau image={bandeauImage} titre={contenuBandeau.titre} texte={contenuBandeau.texte}/>
       <div className="table_presta">
-        <h1>Les prestations de Hair Prestige</h1>
+        <h2>Les prestations de Hair Prestige</h2>
 
         <PrestationRow
           section={prestations_hp.titresSections
