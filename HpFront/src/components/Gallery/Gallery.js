@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
 import "./Gallery.css";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 const Gallery = ({ slides }) => {
   const [current, setCurrent] = useState(0);
-  const length = slides.length;
+
+  const length = slides.length; // [0, 1, 2, 3, 4]
 
   const nextSlide = () => {
+    // length - 1 ça veux dire dernier index de la liste
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
@@ -15,7 +16,13 @@ const Gallery = ({ slides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
+  // vérifie que la liste d'images existe ou est remplie d'au moins 1 image
   if (!Array.isArray(slides) || slides.length <= 0) {
+    // array, list, tableau => [1,2,'blabla', ...]
+    // !Array.isArray({"object": true}) => true
+    // !Array.isArray(1) => true
+    // !Array.isArray([1,2,3]) => false
+    // !Array.isArray([]) => false
     return null;
   }
 
@@ -24,7 +31,7 @@ const Gallery = ({ slides }) => {
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
 
-      {SliderData.map((slide, index) => {
+      {slides.map((slide, index) => {
         return (
           <div
             className={index === current ? "slide active" : "slide"}
