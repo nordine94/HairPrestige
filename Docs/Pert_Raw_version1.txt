@@ -1,0 +1,13 @@
+Tâches:
+	A(1): setup Git & react app
+		B(1): modéliser site web (pages + contenu) avec cahier des charges
+			C(5): home page
+			D(5): gallery page
+			E(5): prestation page
+			F(2): contact page
+			G(1): Mentions page
+			
+			
+				H(1): Tests (Basique + responsive)
+				I(1): Déploiement
+				J(1): Tests en ligne 
