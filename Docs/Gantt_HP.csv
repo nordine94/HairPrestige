@@ -1,0 +1,39 @@
+ID,Nom,Date de début,Date de fin,Durée,Avancée,Coût,Responsable,Prédécesseurs,Numéro hiérarchique,Ressources,Assignments,Nouvelle tâche,Lien internet,Notes
+0,Création Github,31/01/2022,31/01/2022,1,0,0.0,Nordine,,1,Nordine,"0:100,00","#00ff00",,
+27,Page Mentions Légales,01/02/2022,01/02/2022,1,0,0.0,Guillaume,,2,Nordine;Guillaume,"0:100,00;1:100,00","#ffff99",,
+10,NavBar,01/02/2022,02/02/2022,2,0,0.0,Matthieu,0,3,Matthieu,"2:100,00","#ffcc00",,
+11,Footer,01/02/2022,09/02/2022,7,0,0.0,Matthieu,0,4,Matthieu,"2:100,00","#00cccc",,
+76,"  Social_media",03/02/2022,08/02/2022,4,0,0.0,Nordine,,4.1,Nordine,"0:100,00","#00ff00",,
+19,"  Comp_Horaires",01/02/2022,01/02/2022,1,0,0.0,Matthieu,,4.2,Matthieu,"2:100,00","#ffcc00",,
+75,"  Coordonnées_salon",01/02/2022,01/02/2022,1,0,0.0,Nordine,,4.3,Nordine,"0:100,00","#00ff00",,
+20,"  Comp_Adresse",02/02/2022,02/02/2022,1,0,0.0,Matthieu,0;75,4.4,Matthieu,"2:100,00","#ffcc00",,
+100,"  Modif_Footer V2",09/02/2022,09/02/2022,1,0,0.0,Matthieu,76,4.5,Matthieu,"2:100,00","#ffcc00",,
+3,Page Accueil,01/02/2022,09/02/2022,7,0,0.0,,,5,,,"#00cccc",,
+77,"  Infos_partenaire",01/02/2022,07/02/2022,5,0,0.0,Nordine,,5.1,Nordine,"0:100,00","#00ff00",,
+5,"  Comp_Bandeau",01/02/2022,07/02/2022,5,0,0.0,Nordine,0,5.2,Nordine,"0:100,00","#00ff00",,
+13,"  Comp_Image/Texte",01/02/2022,01/02/2022,1,0,0.0,Guillaume,0,5.3,Guillaume,"1:100,00","#9999ff",,
+42,"  Comp_Image/Texte L-R",02/02/2022,02/02/2022,1,0,0.0,Guillaume,13,5.4,Guillaume,"1:100,00","#9999ff",,
+43,"  Récup_avis via Google",01/02/2022,01/02/2022,1,0,0.0,Guillaume,0,5.5,Guillaume,"1:100,00","#9999ff",,
+22,"  Comp_Avis Client",02/02/2022,03/02/2022,2,0,0.0,Guillaume,43,5.6,Guillaume,"1:100,00","#9999ff",,
+105,"  Update_presentation accueil",09/02/2022,09/02/2022,1,0,0.0,Matthieu,,5.7,Guillaume;Matthieu,"1:100,00;2:100,00","#ffff99",,
+15,Page Prestations,01/02/2022,08/02/2022,6,0,0.0,,,6,,,"#00cccc",,
+74,"  Info_prestations_coiffure",01/02/2022,01/02/2022,1,0,0.0,Nordine,,6.1,Nordine,"0:100,00","#00ff00",,
+53,"  Dispatch_prestations_catégories",02/02/2022,02/02/2022,1,0,0.0,Nordine,74,6.2,Nordine;Matthieu,"0:100,00;2:100,00","#ffff99",,
+29,"  Comp_bloc_prestation",03/02/2022,07/02/2022,3,0,0.0,Matthieu,0;53,6.3,Matthieu,"2:100,00","#ffcc00",,
+102,"  Com_bloc_prestation V2",08/02/2022,08/02/2022,1,0,0.0,Matthieu,29,6.4,Matthieu,"2:100,00","#ffcc00",,
+16,Page Photos,01/02/2022,11/02/2022,9,0,0.0,,,7,,,"#00cccc",,
+72,"  Images_salon",07/02/2022,07/02/2022,1,0,0.0,Nordine,,7.1,Nordine,"0:100,00","#00ff00",,
+73,"  Images_pretexte/coiffure",01/02/2022,02/02/2022,2,0,0.0,Nordine,,7.2,Nordine;Guillaume;Matthieu,"0:100,00;1:100,00;2:100,00","#ffff99",,
+32,"  Comp_galerie photos",03/02/2022,07/02/2022,3,0,0.0,Nordine,0;73,7.3,Nordine,"0:100,00","#00ff00",,
+90,"  Comp_galerie photos V2",08/02/2022,10/02/2022,3,0,0.0,Nordine,32;72,7.4,Nordine,"0:100,00","#00ff00",,
+107,"  Comp_galerie responsive",11/02/2022,11/02/2022,1,0,0.0,Nordine,90,7.5,Nordine,"0:100,00","#00ff00",,
+14,Page Contact,03/02/2022,08/02/2022,4,0,0.0,Guillaume,,8,Guillaume,"1:100,00","#00cccc",,
+26,"  Comp_carte redirige GMaps",03/02/2022,03/02/2022,1,0,0.0,Guillaume,,8.1,Guillaume,"1:100,00","#9999ff",,
+24,"  Comp_Formulaire Contact",08/02/2022,08/02/2022,1,0,0.0,Guillaume,,8.2,Guillaume,"1:100,00","#9999ff",,
+106,Déploiement_Site via Vercel,09/02/2022,09/02/2022,1,0,0.0,Guillaume,,9,Guillaume,"1:100,00","#9999ff",,
+
+
+ID,Nom,Rôle par défaut,Courriel,Téléphone,Rôle d'affectation,Taux normal
+0,Nordine,Default:0,,,,0
+1,Guillaume,Default:0,,,,0
+2,Matthieu,Default:0,,,,0
